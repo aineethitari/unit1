@@ -1,4 +1,4 @@
-# Solution to Base 3 Problem
+# Solution to Base Problem
 ![](base3.JPG)
 **Steps:**
 1. Get input
