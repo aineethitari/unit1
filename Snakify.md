@@ -222,3 +222,28 @@ Image of the results
 
 <img width="871" alt="First digit after decimal point 4" src="https://user-images.githubusercontent.com/112055062/187026103-3f4ac6cb-56f1-4f42-8650-2b653e0feac4.png">
 
+## Car route
+
+A car can cover distance of N kilometers per day. How many days will it take to cover a route of length M kilometers? The program gets two numbers: N and M.
+
+```.py
+N = int(input())
+M = int(input())
+import math
+print(math.ceil(M/N))
+```
+
+Image of the results
+
+<img width="806" alt="Car route1" src="https://user-images.githubusercontent.com/112055062/187026316-574b6742-aff6-45ed-9ef7-d157c72f5530.png">
+
+<img width="812" alt="Car route2" src="https://user-images.githubusercontent.com/112055062/187026323-13282892-d0e6-41db-a5eb-ea8d2f58b095.png">
+
+## Digital clock
+
+Given the integer N - the number of minutes that is passed since midnight - how many hours and minutes are displayed on the 24h digital clock?
+The program should print two numbers: the number of hours (between 0 and 23) and the number of minutes (between 0 and 59).
+
+For example, if N = 150, then 150 minutes have passed since midnight - i.e. now is 2:30 am. So the program should print 2 30.
+
+
