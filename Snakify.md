@@ -246,4 +246,14 @@ The program should print two numbers: the number of hours (between 0 and 23) and
 
 For example, if N = 150, then 150 minutes have passed since midnight - i.e. now is 2:30 am. So the program should print 2 30.
 
+```.py
+a = int(input())
+print(a//60)
+print(a%60)
+```
+
+Image of the results
+
+<img width="835" alt="Digital clock" src="https://user-images.githubusercontent.com/112055062/187026591-8e7d3b21-66ae-4e93-9cb0-d86c92f3033d.png">
+
 
