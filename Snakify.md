@@ -34,6 +34,8 @@ Write a program that takes a number and print its square.
 a=int(input())
 print(a**2)
 ```
+Image of the results
+<img width="650" alt="Square1" src="https://user-images.githubusercontent.com/112055062/187020325-b2bd0099-4316-4b60-ae73-f7688d060e48.png">
+<img width="631" alt="Square2" src="https://user-images.githubusercontent.com/112055062/187020326-3f46f00f-6642-4295-8d41-fa6f6993bece.png">
 
-# Chapter 2
 
