@@ -83,3 +83,40 @@ Image of the results
 
 <img width="821" alt="Apple sharing" src="https://user-images.githubusercontent.com/112055062/187020909-9d4f7a53-1174-4fbb-a2e4-ef009805a2da.png">
 
+## Previous and next
+
+Write a program that reads an integer number and prints its previous and next numbers. See the examples below for the exact format your answers should take. There shouldn't be a space before the period.
+
+```.py
+a = int(input())
+b = int(a+1)
+c = int(a-1)
+print('The next number for the number '+ str(a) + ' is ' + str(b) + '.')
+print('The previous number for the number ' + str(a) + ' is ' + str(c) + '.')
+```
+
+Image of the results
+
+<img width="1059" alt="Previous Next" src="https://user-images.githubusercontent.com/112055062/187021132-5f0bf206-e1d5-4f7b-bc37-5843c472edfc.png">
+
+## Two timestamps
+
+A timestamp is three numbers: a number of hours, minutes and seconds. Given two timestamps, calculate how many seconds is between them. The moment of the first timestamp occurred before the moment of the second timestamp.
+
+```.py
+h1 = int(input())*3600
+m1 = int(input())*60
+s1 = int(input())
+a = int(h1+m1+s1)
+h2 = int(input())*3600
+m2 = int(input())*60
+s2 = int(input())
+b = int(h2+m2+s2)
+print(b-a)
+```
+
+Image of the results
+
+<img width="863" alt="Two timestamps" src="https://user-images.githubusercontent.com/112055062/187021419-96c55865-8607-48a6-95ef-c588f4d5ed20.png">
+
+<img width="873" alt="Two timestamps2" src="https://user-images.githubusercontent.com/112055062/187021425-0363158e-e393-4f29-9d8f-c15876373222.png">
