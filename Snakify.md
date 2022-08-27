@@ -175,3 +175,29 @@ Image of the results
 
 <img width="858" alt="Tens digit3" src="https://user-images.githubusercontent.com/112055062/187022302-08ad0827-93c8-47ee-b26d-79a39436352a.png">
 
+## Sum of digits
+
+Given a three-digit number. Find the sum of its digits.
+
+```.py
+n=int(input())
+print(n%10 + n//10%10 + n//100%10)
+```
+
+Image of the results
+
+<img width="818" alt="Sum of digits" src="https://user-images.githubusercontent.com/112055062/187025476-929c36a3-48fc-4e80-8d6e-b7de0c47f969.png">
+
+## Fractional part
+
+Given a positive real number, print its fractional part.
+
+```.py
+n=float(input())
+print(n-int(n))
+```
+
+Image of the results
+
+<img width="812" alt="Fractional part" src="https://user-images.githubusercontent.com/112055062/187025799-6d7eba84-2a35-4caa-855e-ea9b02890f5d.png">
+
