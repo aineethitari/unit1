@@ -1,4 +1,4 @@
-# Chapter 1
+# Chapter 1 - Input, print and numbers
 
 ## Sum of three numbers
 
@@ -139,5 +139,21 @@ Image of the results
 
 <img width="859" alt="School Desks" src="https://user-images.githubusercontent.com/112055062/187021598-ab30a01b-6695-45f5-abfe-674791ee633b.png">
 
+# Chapter 2 - Integer and float numbers
 
+## Last digit
 
+Given an integer number, print its last digit.
+
+```.py
+a = int(input())
+print(a % 10)
+```
+
+Image of the results
+
+<img width="850" alt="Last digit of integer1" src="https://user-images.githubusercontent.com/112055062/187022098-2738dc63-ce6e-4f16-8041-581a6909f64f.png">
+
+<img width="857" alt="Last digit of integer2" src="https://user-images.githubusercontent.com/112055062/187022102-5c6f6730-7a7a-4316-8c47-e81cdf96eb7e.png">
+
+<img width="854" alt="Last digit of integer3" src="https://user-images.githubusercontent.com/112055062/187022110-9a102be9-96d9-44fb-b74b-790fefb6a30b.png">
