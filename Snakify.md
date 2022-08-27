@@ -35,7 +35,24 @@ a=int(input())
 print(a**2)
 ```
 Image of the results
+
 <img width="650" alt="Square1" src="https://user-images.githubusercontent.com/112055062/187020325-b2bd0099-4316-4b60-ae73-f7688d060e48.png">
 <img width="631" alt="Square2" src="https://user-images.githubusercontent.com/112055062/187020326-3f46f00f-6642-4295-8d41-fa6f6993bece.png">
+
+## Area of right-angled triangle
+
+Write a program that reads the length of the base and the height of a right-angled triangle and prints the area. Every number is given on a separate line.
+
+```.py
+b = int(input())
+h=int(input())
+# Print the result with print()
+print((b*h)/2)
+```
+
+Image of the results
+
+<img width="608" alt="right angle triangle" src="https://user-images.githubusercontent.com/112055062/187020510-890d8f2f-b281-42aa-b4cf-08e31fc6dd39.png">
+
 
 
