@@ -141,7 +141,7 @@ Image of the results
 
 # Chapter 2 - Integer and float numbers
 
-## Last digit
+## Last digit of integer
 
 Given an integer number, print its last digit.
 
@@ -157,3 +157,21 @@ Image of the results
 <img width="857" alt="Last digit of integer2" src="https://user-images.githubusercontent.com/112055062/187022102-5c6f6730-7a7a-4316-8c47-e81cdf96eb7e.png">
 
 <img width="854" alt="Last digit of integer3" src="https://user-images.githubusercontent.com/112055062/187022110-9a102be9-96d9-44fb-b74b-790fefb6a30b.png">
+
+## Tens digit
+
+Given an integer. Print its tens digit.
+
+```.py
+a= int(input())
+print(a//10 %10)
+```
+
+Image of the results
+
+<img width="845" alt="Tens digit1" src="https://user-images.githubusercontent.com/112055062/187022291-70f21030-0de0-412b-8de6-566251a638e0.png">
+
+<img width="832" alt="Tens digit 2" src="https://user-images.githubusercontent.com/112055062/187022296-3538757a-64d8-4d25-86ea-a85478a5873e.png">
+
+<img width="858" alt="Tens digit3" src="https://user-images.githubusercontent.com/112055062/187022302-08ad0827-93c8-47ee-b26d-79a39436352a.png">
+
