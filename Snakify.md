@@ -120,3 +120,24 @@ Image of the results
 <img width="863" alt="Two timestamps" src="https://user-images.githubusercontent.com/112055062/187021419-96c55865-8607-48a6-95ef-c588f4d5ed20.png">
 
 <img width="873" alt="Two timestamps2" src="https://user-images.githubusercontent.com/112055062/187021425-0363158e-e393-4f29-9d8f-c15876373222.png">
+
+## School desks
+
+A school decided to replace the desks in three classrooms. Each desk sits two students. Given the number of students in each class, print the smallest possible number of desks that can be purchased.
+The program should read three integers: the number of students in each of the three classes, a, b and c respectively.
+
+In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, so they can get by with no fewer than 11 desks. 11 desks is also enough for the third group of 22 students. So we need 32 desks in total.
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+print((a//2) + (a%2) + (b//2) + (b%2) + (c//2) + (c%2))
+```
+
+Image of the results
+
+<img width="859" alt="School Desks" src="https://user-images.githubusercontent.com/112055062/187021598-ab30a01b-6695-45f5-abfe-674791ee633b.png">
+
+
+
