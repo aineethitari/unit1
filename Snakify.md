@@ -12,7 +12,6 @@ print(a + b + c)
 ```
 
 Image of the results
-
 ![](Test_run_1.png)
 
 
