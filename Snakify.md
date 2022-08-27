@@ -66,3 +66,20 @@ Image of the results
 
 <img width="839" alt="Hello Harry" src="https://user-images.githubusercontent.com/112055062/187020650-59953b4d-ce4a-4bde-9b56-9cb964b30e28.png">
 
+## Apple sharing
+
+N students take K apples and distribute them among each other evenly. The remaining (the undivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
+The program reads the numbers N and K. It should print the two answers for the questions above.
+
+```.py
+N = int(input())
+K = int(input())
+# Print the result with print()
+print(K//N)
+print(K%N)
+```
+
+Image of the results
+
+<img width="821" alt="Apple sharing" src="https://user-images.githubusercontent.com/112055062/187020909-9d4f7a53-1174-4fbb-a2e4-ef009805a2da.png">
+
