@@ -256,4 +256,54 @@ Image of the results
 
 <img width="835" alt="Digital clock" src="https://user-images.githubusercontent.com/112055062/187026591-8e7d3b21-66ae-4e93-9cb0-d86c92f3033d.png">
 
+## Total cost
+
+A cupcake costs A dollars and B cents. Determine, how many dollars and cents should one pay for N cupcakes. A program gets three numbers: A, B, N. It should print two numbers: total cost in dollars and cents.
+
+```.py
+A = int(input())
+B = int(input())
+N = int(input())
+
+print(A*N + B*N//100)
+print(B*N % 100)
+```
+
+
+Image of the results
+
+<img width="813" alt="Total cost" src="https://user-images.githubusercontent.com/112055062/187027151-289cc49f-ea7f-4712-aa6e-9433474a6695.png">
+
+<img width="805" alt="Total cost2" src="https://user-images.githubusercontent.com/112055062/187027162-5431a545-c958-4646-a923-753784b26d5a.png">
+
+## Clock face-1
+
+H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
+
+```.py
+h = int(input())
+m = int(input())
+s = int(input())
+print( (h*3600 + m*60 + s) * (1/120))
+```
+
+Image of the results
+
+<img width="806" alt="Clock face 1" src="https://user-images.githubusercontent.com/112055062/187027337-828f7a6c-85de-43dc-a524-400e269dff79.png">
+
+<img width="811" alt="Clockface1 2" src="https://user-images.githubusercontent.com/112055062/187027343-7851d0cc-9a8e-460f-9871-891015c52e84.png">
+
+## Clock face -2
+
+Hour hand turned by α degrees since the midnight. Determine the angle by which minute hand turned since the start of the current hour. Input and output in this problems are floating-point numbers.
+
+```
+a = float(input())
+print( (a*2) %60 *6)
+```
+
+Image of the results
+
+<img width="615" alt="Clockface 2" src="https://user-images.githubusercontent.com/112055062/187027505-99680396-dc78-46d2-9e53-445c87558cc8.png">
+
 
