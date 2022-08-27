@@ -12,7 +12,28 @@ print(a + b + c)
 ```
 
 Image of the results
-![](Test_run_1.png)
 
+<img width="802" alt="Test run 1" src="https://user-images.githubusercontent.com/112055062/187020010-2e873d7e-b089-4572-8d3c-08d747c546bb.png">
+
+## Hi John
+
+Write a program that greets the person by printing the word "Hi" and the name of the person. See the examples below.
+
+```.py
+print('Hi',input())
+```
+Image of the results
+
+<img width="625" alt="Hi John" src="https://user-images.githubusercontent.com/112055062/187020110-c60604b7-c3c5-4c9e-a78c-d1899e7495e0.png">
+
+## Square
+
+Write a program that takes a number and print its square.
+
+```.py
+a=int(input())
+print(a**2)
+```
 
 # Chapter 2
+
