@@ -13,4 +13,7 @@ print(a + b + c)
 
 Image of the results
 
+![](Test run 1.png)
+
+
 # Chapter 2
