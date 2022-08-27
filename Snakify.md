@@ -54,5 +54,15 @@ Image of the results
 
 <img width="608" alt="right angle triangle" src="https://user-images.githubusercontent.com/112055062/187020510-890d8f2f-b281-42aa-b4cf-08e31fc6dd39.png">
 
+## Hello, Harry!
 
+Write a program that greets the user by printing the word "Hello", a comma, the name of the user and an exclamation mark after it. See the examples below.
+
+```.py
+print('Hello'+','+' '+name+'!')
+```
+
+Image of the results
+
+<img width="839" alt="Hello Harry" src="https://user-images.githubusercontent.com/112055062/187020650-59953b4d-ce4a-4bde-9b56-9cb964b30e28.png">
 
