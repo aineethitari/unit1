@@ -297,7 +297,7 @@ Image of the results
 
 Hour hand turned by α degrees since the midnight. Determine the angle by which minute hand turned since the start of the current hour. Input and output in this problems are floating-point numbers.
 
-```
+```.py
 a = float(input())
 print( (a*2) %60 *6)
 ```
@@ -305,5 +305,21 @@ print( (a*2) %60 *6)
 Image of the results
 
 <img width="615" alt="Clockface 2" src="https://user-images.githubusercontent.com/112055062/187027505-99680396-dc78-46d2-9e53-445c87558cc8.png">
+
+# Chapter 3 - Conditions: if, then, else
+
+## Minimum of two numbers
+
+Given two integers, print the smaller value.
+
+```.py
+a=int(input())
+b=int(input())
+if a>b:
+    print (b)
+else: 
+    print(a)
+```
+<img width="615" alt="Clockface 2" src="https://user-images.githubusercontent.com/112055062/187186620-111bafca-9680-456d-9503-febf38b684f4.png">
 
 
