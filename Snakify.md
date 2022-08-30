@@ -342,3 +342,26 @@ if x<0:
 
 Image of the results
 
+<img width="828" alt="Sign function" src="https://user-images.githubusercontent.com/112055062/187323778-6bfcb8fd-7847-4612-bd64-28dd99f7ead1.png">
+
+## Minimum of three numbers
+
+Given three integers, print the smallest value.
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a < b and a < c :
+    print(a)
+elif b<c and b<c:
+    print(b)
+else:
+    print(c)
+```
+
+Image of the results
+
+<img width="828" alt="Sign function" src="https://user-images.githubusercontent.com/112055062/187324322-2b32fa10-b6a0-4517-90b5-3f19be150cbd.png">
+
+
