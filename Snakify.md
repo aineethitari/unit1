@@ -364,4 +364,27 @@ Image of the results
 
 <img width="828" alt="Sign function" src="https://user-images.githubusercontent.com/112055062/187324322-2b32fa10-b6a0-4517-90b5-3f19be150cbd.png">
 
+## Equal numbers
+
+Given three integers, determine how many of them are equal to each other. The program must print one of these numbers: 3 (if all are the same), 2 (if two of them are equal to each other and the third is different) or 0 (if all numbers are different).
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a==b and b==c:
+    print(3)
+elif a==b and b!=c :
+    print(2)
+elif b==c and c!=a:
+    print(2)
+elif c==a and a!=b:
+    print(2)
+else :
+    print(0)
+```
+
+Image of the results
+
+<img width="823" alt="Equal numbers" src="https://user-images.githubusercontent.com/112055062/187332230-82525f7a-b0f9-442c-8bcb-393c93f5cad6.png">
 
