@@ -320,6 +320,25 @@ if a>b:
 else: 
     print(a)
 ```
-<img width="615" alt="Clockface 2" src="https://user-images.githubusercontent.com/112055062/187186620-111bafca-9680-456d-9503-febf38b684f4.png">
 
+Image of the results
+
+<img width="847" alt="minimum of two numbers" src="https://user-images.githubusercontent.com/112055062/187186733-256fcab2-949b-491b-9c58-6a0c6b449835.png">
+
+## Sign function
+
+For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
+Try to use the cascade if-elif-else for it.
+
+```.py
+x = int(input())
+if x > 0:
+    print(1)
+elif x==0:
+    print(0)
+if x<0:
+    print(-1)
+```
+
+Image of the results
 
