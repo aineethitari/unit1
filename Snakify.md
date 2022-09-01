@@ -227,6 +227,20 @@ Image of the results
 
 <img width="818" alt="Sum of digits" src="https://user-images.githubusercontent.com/112055062/187025476-929c36a3-48fc-4e80-8d6e-b7de0c47f969.png">
 
+## Reverse three digits
+
+Given a three-digit integer number, print its digits in a reversed order
+
+```.py
+a = int(input())
+units = a%10
+tenths = a//10 %10
+hundredths = a//100 
+print(int(units*100+tenths*10+hundredths))
+```
+
+<img width="388" alt="Reverse three digits" src="https://user-images.githubusercontent.com/112055062/187950576-323c0b5a-fec1-4495-b076-cb4f7f5a19bf.png">
+
 ## Fractional part
 
 Given a positive real number, print its fractional part.
@@ -254,12 +268,6 @@ print(c*10//1)
 Image of the results
 
 <img width="832" alt="First digit after decimal point" src="https://user-images.githubusercontent.com/112055062/187026030-9393e4e7-370a-44bb-900d-f45c153aefb9.png">
-
-<img width="813" alt="First digit after decimal point2" src="https://user-images.githubusercontent.com/112055062/187026039-0d2c9816-5349-4928-bbb1-9c01c30930cc.png">
-
-<img width="804" alt="First digit after decimal point3" src="https://user-images.githubusercontent.com/112055062/187026044-e610d5f7-47c4-45f1-a424-74e02da63a07.png">
-
-<img width="871" alt="First digit after decimal point 4" src="https://user-images.githubusercontent.com/112055062/187026103-3f4ac6cb-56f1-4f42-8650-2b653e0feac4.png">
 
 ## Car route
 
