@@ -388,8 +388,3 @@ Image of the results
 
 <img width="823" alt="Equal numbers" src="https://user-images.githubusercontent.com/112055062/187332230-82525f7a-b0f9-442c-8bcb-393c93f5cad6.png">
 
-## Rook move
-
-Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.
-The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a rook can go from the first cell to the second in one move, or NO otherwise.
-
