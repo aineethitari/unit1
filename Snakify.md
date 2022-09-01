@@ -158,6 +158,19 @@ Image of the results
 
 <img width="854" alt="Last digit of integer3" src="https://user-images.githubusercontent.com/112055062/187022110-9a102be9-96d9-44fb-b74b-790fefb6a30b.png">
 
+## Two digits
+
+Given a two-digit number, print its digits separately.
+
+```.py
+a=int(input())
+print(a//10 , a%10)
+```
+
+Image of the results
+
+<img width="373" alt="Two digits" src="https://user-images.githubusercontent.com/112055062/187928801-d8435e42-7c58-4096-b51b-6129cff0958a.png">
+
 ## Tens digit
 
 Given an integer. Print its tens digit.
