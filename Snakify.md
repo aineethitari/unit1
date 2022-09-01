@@ -171,6 +171,23 @@ Image of the results
 
 <img width="373" alt="Two digits" src="https://user-images.githubusercontent.com/112055062/187928801-d8435e42-7c58-4096-b51b-6129cff0958a.png">
 
+## Swap digits
+
+Given a two-digit number, swap its digits as shown in the tests below
+
+```.py
+a=int(input())
+b=a%10
+c=a//10
+print(b*10 + c)
+```
+
+Image of the results
+
+<img width="369" alt="Swap digit" src="https://user-images.githubusercontent.com/112055062/187933571-3c64b22c-c695-4bf4-b4d0-c0cc93f2d176.png">
+
+
+
 ## Tens digit
 
 Given an integer. Print its tens digit.
@@ -183,10 +200,6 @@ print(a//10 %10)
 Image of the results
 
 <img width="845" alt="Tens digit1" src="https://user-images.githubusercontent.com/112055062/187022291-70f21030-0de0-412b-8de6-566251a638e0.png">
-
-<img width="832" alt="Tens digit 2" src="https://user-images.githubusercontent.com/112055062/187022296-3538757a-64d8-4d25-86ea-a85478a5873e.png">
-
-<img width="858" alt="Tens digit3" src="https://user-images.githubusercontent.com/112055062/187022302-08ad0827-93c8-47ee-b26d-79a39436352a.png">
 
 ## Sum of digits
 
