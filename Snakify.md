@@ -186,7 +186,20 @@ Image of the results
 
 <img width="369" alt="Swap digit" src="https://user-images.githubusercontent.com/112055062/187933571-3c64b22c-c695-4bf4-b4d0-c0cc93f2d176.png">
 
+## Last two digits
 
+Given an integer number, print its last two digits
+
+```.py
+a=int(input())
+units=a%10
+tenths=a%100 - a%10
+print(units + tenths)
+```
+
+Image of the results
+
+<img width="378" alt="Last two digits" src="https://user-images.githubusercontent.com/112055062/187935850-c19edeb3-32ed-47cc-9960-280bc959f8b5.png">
 
 ## Tens digit
 
