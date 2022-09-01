@@ -18,3 +18,4 @@ if number_A + number_B == 20:
 
 print(f"The answer to the quiz 002 is {output}")
 ```
+<img width="767" alt="quiz002" src="https://user-images.githubusercontent.com/112055062/187837732-c8dda11e-85b7-4ecb-8b99-9cc028a457a4.png">
