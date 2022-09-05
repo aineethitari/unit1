@@ -23,3 +23,7 @@ print(f"The largest to smallest heights are {Output}.")
 ## Flow Chart:
 
 ![largest to smallest](https://user-images.githubusercontent.com/112055062/188367076-2a71f92d-9dcf-402c-bfd6-6fc77ff8819a.JPG)
+
+## Code from Pycharm
+
+![largest to smallest](https://user-images.githubusercontent.com/112055062/188462868-3f2d5a11-8665-4171-b71d-7ec4bc6a1480.JPG)
