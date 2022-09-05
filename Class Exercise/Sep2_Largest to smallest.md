@@ -20,10 +20,11 @@ elif C > B:
 
 print(f"The largest to smallest heights are {Output}.")
 ```
-## Flow Chart:
 
 ![largest to smallest](https://user-images.githubusercontent.com/112055062/188367076-2a71f92d-9dcf-402c-bfd6-6fc77ff8819a.JPG)
 
-## Code from Pycharm
+**Fig.1** Flowchart of the solution
 
 <img width="1152" alt="Largest to smallest pycharm" src="https://user-images.githubusercontent.com/112055062/188463494-7d91073e-1b8b-441e-bc7b-470521508dd0.png">
+
+**Fig.2** Code from Pycharm
