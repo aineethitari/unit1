@@ -26,4 +26,4 @@ print(f"The largest to smallest heights are {Output}.")
 
 ## Code from Pycharm
 
-![largest to smallest](https://user-images.githubusercontent.com/112055062/188462868-3f2d5a11-8665-4171-b71d-7ec4bc6a1480.JPG)
+<img width="1152" alt="Largest to smallest pycharm" src="https://user-images.githubusercontent.com/112055062/188463494-7d91073e-1b8b-441e-bc7b-470521508dd0.png">
