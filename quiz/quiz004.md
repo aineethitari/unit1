@@ -4,3 +4,8 @@
 ![quiz004](https://user-images.githubusercontent.com/112055062/188644846-ef9e554c-7a3f-478c-8123-1e7d8f3d697c.jpeg)
 
 **Fig.1** Flow chart of the improved code with proper coding practices
+
+## What is the intended purpose of this program?
+The purpose of this program is the print the last digit of the integer on the unit + the last digit of the integer on the tenths.
+
+## HL: Code the program
