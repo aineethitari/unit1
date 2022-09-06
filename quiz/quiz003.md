@@ -18,6 +18,6 @@ print(f"The translation of the protein is {Output}")
 
 **Fig.1** Image of the code
 
-![Quiz003flowchart](https://user-images.githubusercontent.com/112055062/188461460-23a096d7-92db-443b-bca3-0d378f0b9973.jpeg)
+![Quiz003 flowchart edit](https://user-images.githubusercontent.com/112055062/188627087-a4901453-d087-4d65-938c-4c709db5b229.jpeg)
 
 **Fig.2** Image of the flowchart
