@@ -27,4 +27,4 @@ exit()
 
 <img width="1134" alt="Quiz004 pycharm" src="https://user-images.githubusercontent.com/112055062/188869215-fe418850-1b9a-4f8a-a339-87ba0ce98d82.png">
 
-**Fig.1** The image of the code from pycharm
+**Fig.2** The image of the code from pycharm
