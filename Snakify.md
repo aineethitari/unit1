@@ -261,6 +261,20 @@ Image of the results
 
 <img width="370" alt="merge two numbers" src="https://user-images.githubusercontent.com/112055062/188882618-c4824fe3-461a-4536-8ee6-040f4211829e.png">
 
+## Cyclic rotation
+
+Given a four-digit integer number, perform its cyclic rotation by two digits, as shown in the tests below.
+
+```.py
+a = int(input())
+
+print(a % 100 * 100 + a // 100)
+```
+
+Image of the results
+
+<img width="383" alt="Cyclic rotation" src="https://user-images.githubusercontent.com/112055062/188886070-fa7bf261-dc31-4f67-b0ee-507a6dc844d8.png">
+
 ## Fractional part
 
 Given a positive real number, print its fractional part.
