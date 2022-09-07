@@ -241,6 +241,26 @@ print(int(units*100+tenths*10+hundredths))
 
 <img width="388" alt="Reverse three digits" src="https://user-images.githubusercontent.com/112055062/187950576-323c0b5a-fec1-4495-b076-cb4f7f5a19bf.png">
 
+## Merge two numbers
+
+Given two two-digit numbers, merge their digits as shown in the tests below.
+
+```.py
+number_1 = int(input())
+number_2 = int(input())
+
+thousands = (number_1//10)*1000
+hundreds = (number_2//10)*100
+tens = (number_1%10)*10
+ones = (number_2%10)
+
+print(thousands + hundreds + tens + ones)
+```
+
+Image of the results
+
+<img width="370" alt="merge two numbers" src="https://user-images.githubusercontent.com/112055062/188882618-c4824fe3-461a-4536-8ee6-040f4211829e.png">
+
 ## Fractional part
 
 Given a positive real number, print its fractional part.
