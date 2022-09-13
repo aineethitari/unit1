@@ -17,7 +17,7 @@ for locker_num in range(1, total_num+1, 1):
         print(f"The color is blue")
 ```
 
-**Task2** Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
+**Task1.2** Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
 
 ```.py
 locker_num = int(input("Please enter a locker number ID from 1-2400"))
