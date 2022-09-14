@@ -344,6 +344,8 @@ if number_group == 6:
     print("6")
 ```
 
+Image of the results 
+
 <img width="379" alt="day of week " src="https://user-images.githubusercontent.com/112055062/190135655-f7d0d641-1b4d-4595-b968-c381f4f5b112.png">
 
 ## Digital clock
