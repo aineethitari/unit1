@@ -607,6 +607,38 @@ Image of the results
 
 <img width="828" alt="Sign function" src="https://user-images.githubusercontent.com/112055062/187323778-6bfcb8fd-7847-4612-bd64-28dd99f7ead1.png">
 
+## Numbers in ascending order
+
+Given three different integers, print YES if they're given in ascending order, print NO otherwise.
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a<b<c:
+    print("YES")
+else:
+    print("NO")
+```
+
+<img width="281" alt="ascending order" src="https://user-images.githubusercontent.com/112055062/190194112-495f1a16-2772-4852-a5a6-17b2a4d43201.png">
+
+## Is three digit
+
+Given an integer, print "YES" if it's a three-digit number and print "NO" otherwise.
+
+```.py
+a = int(input())
+if 1000>a>99:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the results
+
+<img width="445" alt="Is three digit" src="https://user-images.githubusercontent.com/112055062/190195373-0180184c-5eec-4262-a5dc-e86b1d2a3f82.png">
+
 ## Minimum of three numbers
 
 Given three integers, print the smallest value.
