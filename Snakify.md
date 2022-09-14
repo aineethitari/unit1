@@ -385,6 +385,22 @@ Image of the results
 
 <img width="805" alt="Total cost2" src="https://user-images.githubusercontent.com/112055062/187027162-5431a545-c958-4646-a923-753784b26d5a.png">
 
+## Century
+
+Given a year as a positive integer, print its century. Mind that the 20th century began on 1901 and ended on 2000.
+
+```.py
+year = int(input())
+century = year//100 +1
+if year%100 == 0:
+    century = year//100
+print(century)
+```
+
+Image of the results
+
+<img width="617" alt="Century" src="https://user-images.githubusercontent.com/112055062/190162688-a7382adb-99dd-42a0-a35f-46202e3abe02.png">
+
 ## Clock face-1
 
 H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
