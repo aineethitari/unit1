@@ -452,6 +452,22 @@ Image of the results
 
 # Chapter 3 - Conditions: if, then, else
 
+## Is positive
+
+Given an integer, print "YES" if it's positive and print "NO" otherwise.
+
+```.py
+number = int(input())
+if number > 0:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the results
+
+<img width="620" alt="Snail" src="https://user-images.githubusercontent.com/112055062/190180554-5f5343be-daee-4ed6-bf0a-7bcdf43559bf.png">
+
 ## Minimum of two numbers
 
 Given two integers, print the smaller value.
