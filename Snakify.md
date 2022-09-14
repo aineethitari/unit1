@@ -535,6 +535,59 @@ Image of the results
 
 <img width="847" alt="minimum of two numbers" src="https://user-images.githubusercontent.com/112055062/187186733-256fcab2-949b-491b-9c58-6a0c6b449835.png">
 
+## Are both odd
+
+Given two integers, print "YES" if they're both odd and print "NO" otherwise.
+
+```.py
+a = int(input())
+b = int(input())
+if a%2!=0 and b%2!=0:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the results
+
+<img width="276" alt="Are both odd" src="https://user-images.githubusercontent.com/112055062/190187077-00ffe6b5-0134-436f-800e-eeb25f6136b3.png">
+
+## At least one odd
+
+Given two integers, print "YES" if at least one of them is odd and print "NO" otherwise.
+
+```.py
+a = int(input())
+b = int(input())
+if a%2!=0 or b%2!=0:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the results
+
+<img width="321" alt="At least one odd" src="https://user-images.githubusercontent.com/112055062/190188430-1aa15e60-6c45-45fc-9a39-812fc9440c9a.png">
+
+## Exactly one odd
+
+Given two integers, print "YES" if exactly one of them is odd and print "NO" otherwise.
+
+```.py
+a = int(input())
+b = int(input())
+if a%2 != 0 and b%2 == 0:
+        print("YES")
+elif a%2 == 0 and b%2 != 0:
+        print("YES")
+else:
+    print("NO")
+```
+
+Image of the results:
+
+<img width="321" alt="At least one odd" src="https://user-images.githubusercontent.com/112055062/190191431-8f87e3a2-ba0f-47ff-bdfe-195a8aa0a2df.png">
+
 ## Sign function
 
 For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
