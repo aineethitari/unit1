@@ -401,6 +401,25 @@ Image of the results
 
 <img width="617" alt="Century" src="https://user-images.githubusercontent.com/112055062/190162688-a7382adb-99dd-42a0-a35f-46202e3abe02.png">
 
+## Snail
+
+A snail goes up A feet during the day and falls B feet at night. How long does it take him to go up H feet?
+Given three integer numbers H, A and B (A > B), the program should output a number of days.
+
+```.py
+H = int(input())
+A = int(input())
+B = int(input())
+
+from math import ceil
+D = ceil((H - A) / (A - B)) + 1
+print(D)
+```
+
+Image of the results
+
+<img width="620" alt="Snail" src="https://user-images.githubusercontent.com/112055062/190174951-5427ec13-9e19-44fa-9194-6223aa2e2b7a.png">
+
 ## Clock face-1
 
 H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
