@@ -320,6 +320,32 @@ Image of the results
 
 <img width="812" alt="Car route2" src="https://user-images.githubusercontent.com/112055062/187026323-13282892-d0e6-41db-a5eb-ea8d2f58b095.png">
 
+## Day of week
+
+Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. Given an integer K in the range 1 to 365, find the number of the day of the week for the K-th day of the year provided that this year's January 1 is Thursday.
+
+```.py
+number = int(input())
+number_group = (number+3)%7
+
+if number_group == 0:
+    print("0")
+if number_group == 1:
+    print("1")
+if number_group == 2:
+    print("2")
+if number_group == 3:
+    print("3")
+if number_group == 4:
+    print("4")
+if number_group == 5:
+    print("5")
+if number_group == 6:
+    print("6")
+```
+
+<img width="379" alt="day of week " src="https://user-images.githubusercontent.com/112055062/190135655-f7d0d641-1b4d-4595-b968-c381f4f5b112.png">
+
 ## Digital clock
 
 Given the integer N - the number of minutes that is passed since midnight - how many hours and minutes are displayed on the 24h digital clock?
