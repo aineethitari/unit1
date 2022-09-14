@@ -461,12 +461,45 @@ number = int(input())
 if number > 0:
     print("YES")
 else:
-    print("NO")
+    print("NO") 
 ```
 
 Image of the results
 
 <img width="620" alt="Snail" src="https://user-images.githubusercontent.com/112055062/190180554-5f5343be-daee-4ed6-bf0a-7bcdf43559bf.png">
+
+## Is odd
+
+Given an integer, print "YES" if it's odd and print "NO" otherwise.
+
+```.py
+number = int(input())
+if number % 2 == 0:
+    print("NO")
+else:
+    print("YES")
+```
+
+Image of the results
+
+<img width="247" alt="Is odd" src="https://user-images.githubusercontent.com/112055062/190182292-3b952336-5d84-443a-b4ec-576dc0d119f6.png">
+
+## Is even
+
+Given an integer, print "YES" if it's even and print "NO" otherwise.
+
+```.py
+num = int(input())
+if num%2 == 0:
+    print("YES")
+else:
+    print("NO")
+```
+
+
+Image of the results
+
+<img width="247" alt="Is odd" src="https://user-images.githubusercontent.com/112055062/190183454-4b729ece-e2e8-4212-8ed2-18d785c1a8cb.png">
 
 ## Minimum of two numbers
 
