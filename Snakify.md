@@ -501,6 +501,23 @@ Image of the results
 
 <img width="247" alt="Is odd" src="https://user-images.githubusercontent.com/112055062/190183454-4b729ece-e2e8-4212-8ed2-18d785c1a8cb.png">
 
+## Ends on seven
+
+Given an integer, print "YES" if it's last digit is 7 and print "NO" otherwise.
+
+```.py
+num = int(input())
+last_digit = num%10
+if last_digit%7 == 0:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the results
+
+<img width="436" alt="Ends on seven" src="https://user-images.githubusercontent.com/112055062/190185174-229bcfb9-2f81-4bdf-850b-bbec2cdc3c48.png">
+
 ## Minimum of two numbers
 
 Given two integers, print the smaller value.
