@@ -32,3 +32,5 @@ if number_group == 2:
 if number_group == 3:
     print(f"The color is blue")
 ```
+
+**Task1.3 [HL]** Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. Use at least 10 different functions for Manipulating Strings (Learning Log Item 19)
