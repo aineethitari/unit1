@@ -17,6 +17,8 @@ for locker_num in range(1, total_num+1, 1):
         print(f"The color is blue")
 ```
 
+<img width="736" alt="Task1 1_Code" src="https://user-images.githubusercontent.com/112055062/191013556-604e9f1b-3ee3-4079-8518-c69bbad081ba.png">
+
 **Task1.2** Using the program above, create another program that allows the user to enter a number and the program outputs the color that should be used in the locker.
 
 ```.py
@@ -32,6 +34,8 @@ if number_group == 2:
 if number_group == 3:
     print(f"The color is blue")
 ```
+
+<img width="1195" alt="Task1 2_Code" src="https://user-images.githubusercontent.com/112055062/191013757-da900656-5bed-4771-824f-0ad64123d357.png">
 
 **Task1.3 [HL]** Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. Use at least 10 different functions for Manipulating Strings (Learning Log Item 19)
 
