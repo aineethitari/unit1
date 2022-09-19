@@ -58,3 +58,31 @@ while count <600:
         print(int(4 * count))        
 ```
 
+<img width="1203" alt="Task1 3_Locker_Code" src="https://user-images.githubusercontent.com/112055062/191013252-fe476374-74e3-4e9e-98e6-f6b576125840.png">
+
+**Task1.4 [HL]** Given a list of names of students in the format lastname, firstname, create a program that assigns an email address and a locker to each student and saves the results in a file in the format lastname, firstname, email, locker 
+
+```.py
+with open('students.csv') as file:
+    all_stu = file.readlines()
+    new_all_stu = []
+    for stu_index in range(len(all_stu)):
+        names = all_stu[stu_index].strip() #strip to remove \n
+        split_name = names.split(",")
+        f_name = split_name[0]
+        l_name = split_name[1]
+        grad_year = split_name[2]
+        email = f"{grad_year}.{f_name}.{l_name}@uwcisak.jp"
+        locker = f"{stu_index+1}"
+        out_str = f"{f_name},{l_name},{email},{locker}\n"
+        new_all_stu.append(out_str)
+
+print(new_all_stu)
+
+with open('new_students.csv','w') as file:
+    file.writelines(new_all_stu)
+```
+
+<img width="1177" alt="Task1 4_Locker_Code" src="https://user-images.githubusercontent.com/112055062/191013215-e3084adb-cb62-40c9-ae60-e9bb8b5971d9.png">
+
+
