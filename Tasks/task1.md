@@ -34,3 +34,32 @@ if number_group == 3:
 ```
 
 **Task1.3 [HL]** Create a program that receives a color from the user, validates the input,  and outputs the numbers of the lockers of the color provided. Use at least 10 different functions for Manipulating Strings (Learning Log Item 19)
+
+```.py
+msg="Please choose a color in lower case: red, white, yellow, or blue"
+
+color = str(input(msg.swapcase()))
+if not color:
+    color = input(msg)
+
+
+# color.islower()
+# color.isalpha()
+# color.isalnum()
+# color.isprintable()
+while color not in ["red","blue","yellow","white"]:
+    color = input(f"{msg.center(80,'#')}").lower()
+
+count = 0
+while count <600:
+    count += 1
+    if color == "red":
+        print(int(4 * count) - 3)
+    if color == "white":
+        print(int(4 * count) - 2)
+    if color == "yellow":
+        print(int(4 * count) - 1)
+    if color == "blue":
+        print(int(4 * count))        
+```
+
