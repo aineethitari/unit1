@@ -20,3 +20,5 @@ else:
 ![Quiz005 flowchart edit](https://user-images.githubusercontent.com/112055062/189649863-43557a65-48b4-4f6e-8a35-f3b02853852b.jpeg)
 
 **Fig.1** Flowchart of Quiz005
+
+<img width="461" alt="Quiz005_Results" src="https://user-images.githubusercontent.com/112055062/190999538-7633841c-19e3-41db-a20d-76e84caf57dd.png">
