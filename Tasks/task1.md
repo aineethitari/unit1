@@ -42,11 +42,6 @@ color = str(input(msg.swapcase()))
 if not color:
     color = input(msg)
 
-
-# color.islower()
-# color.isalpha()
-# color.isalnum()
-# color.isprintable()
 while color not in ["red","blue","yellow","white"]:
     color = input(f"{msg.center(80,'#')}").lower()
 
