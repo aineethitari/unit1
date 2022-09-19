@@ -26,3 +26,20 @@ print(f"The answer to the quiz 002 is {output}")
 ## Fig.2 is the flowchart 
 
 ![Flow chart quiz 002](https://user-images.githubusercontent.com/112055062/188420494-a01dae41-1c74-473a-84fa-82b1b5892c16.jpeg)
+
+## HL 
+```
+A_list = [10, 30, 10, 26]
+B_list = [20, 15, 5, -6]
+
+Output = False
+
+for a in A_list:
+    if a == 20:
+        Output = True
+for b in B_list:
+    if b == 20:
+        Output = True
+
+print(f"The answer to the quiz 002 is {Output}")
+```
