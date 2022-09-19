@@ -20,3 +20,7 @@ for number in range(len(text)):
 
 print(f"this is the second result{value}")
 ```
+
+![quiz006 flowchart drawio](https://user-images.githubusercontent.com/112055062/190990098-031bfdf2-c781-46a0-82d5-ce392daab892.png)
+
+<img width="824" alt="Quiz006_Results" src="https://user-images.githubusercontent.com/112055062/190990557-393ead7a-30ba-44cc-a8ac-cfe8092ac95b.png">
