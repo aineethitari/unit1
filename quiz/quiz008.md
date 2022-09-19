@@ -15,3 +15,5 @@ print(output)
 ```
 
 ![Quiz008_flowchart](https://user-images.githubusercontent.com/112055062/191011742-cd0737c8-531a-4e00-b4bb-c5d5decc7603.png)
+
+<img width="760" alt="Quiz008_code" src="https://user-images.githubusercontent.com/112055062/191011953-d4e67d1e-88f6-4279-b147-e5a2e8a0b245.png">
