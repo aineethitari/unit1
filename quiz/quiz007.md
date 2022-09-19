@@ -34,3 +34,5 @@ for m in range(10):
     print(f"Your password {m+1} is{red} {password} {end_code}")
     ```
     
+
+![Quiz007 Flowchart drawio](https://user-images.githubusercontent.com/112055062/190997173-2317580f-143f-4277-ab33-e0bfd3b91800.png)
