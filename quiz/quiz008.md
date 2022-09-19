@@ -13,3 +13,5 @@ if num == 10:
     output = f"{floor}F{num}"
 print(output)
 ```
+
+![Quiz008_flowchart](https://user-images.githubusercontent.com/112055062/191011742-cd0737c8-531a-4e00-b4bb-c5d5decc7603.png)
