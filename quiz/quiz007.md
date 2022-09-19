@@ -34,5 +34,6 @@ for m in range(10):
     print(f"Your password {m+1} is{red} {password} {end_code}")
     ```
     
-![Quiz007 Flowchart](https://user-images.githubusercontent.com/112055062/190997706-46cbcbbf-8558-4c33-9830-4540e72815a5.jpg)
+![Quiz007 Flowchart](https://user-images.githubusercontent.com/112055062/190997897-0bc51d7f-3ea0-4684-ad0f-9180e7fed492.jpg)
+
 
