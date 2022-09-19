@@ -43,3 +43,4 @@ for b in B_list:
 
 print(f"The answer to the quiz 002 is {Output}")
 ```
+
