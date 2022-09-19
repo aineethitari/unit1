@@ -1,5 +1,5 @@
 # Quiz008
-```
+```.py
 room = int(input("Please enter room number "))
 floor = (room//10) + 1
 num = room%10
