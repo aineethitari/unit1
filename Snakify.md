@@ -789,6 +789,37 @@ Image of the result
 
 <img width="344" alt="Distance to closest point" src="https://user-images.githubusercontent.com/112055062/191779371-bc25bc97-d24a-4455-8916-a3e27481ab11.png">
 
+## Digits in ascending order
 
+Given a three-digit integer, print YES if its digits go in ascending order, print NO otherwise.
+
+```.py
+number = int(input())
+number = str(number)
+if number[0] < number[1] < number[2]:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the result
+
+<img width="525" alt="digits in ascending order" src="https://user-images.githubusercontent.com/112055062/191780384-25f0995f-77b2-4a1b-850a-a2d8b4d29074.png">
+
+## Four-digit palindrome
+
+A palindrome is a number which reads the same when read forward as it it does when read backward. Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise.
+
+```.py
+number = str(input())
+if number[0] == number[3] and number[1] == number[2]:
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the result
+
+<img width="486" alt="Four digit palindrome" src="https://user-images.githubusercontent.com/112055062/191781484-e017e4da-742f-4e16-8e74-e5dd26695d04.png">
 
    
