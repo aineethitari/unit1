@@ -769,3 +769,26 @@ Image of the result
 
 <img width="351" alt="chess board - same color" src="https://user-images.githubusercontent.com/112055062/191777837-cd2bc2d1-7496-4608-8225-ebc3f10316b3.png">
 
+## Distance to closest point
+
+Given the coordinates of the three points A, B, and C on a line. Print a distance from the point A to closest point to it.
+
+```.py
+A = int(input())
+B = int(input())
+C = int(input())
+A_to_B = abs(A-B)
+A_to_C = abs(A-C)
+if A_to_B < A_to_C:
+    print(A_to_B)
+if A_to_C < A_to_B:
+    print(A_to_C)
+```
+
+Image of the result
+
+<img width="344" alt="Distance to closest point" src="https://user-images.githubusercontent.com/112055062/191779371-bc25bc97-d24a-4455-8916-a3e27481ab11.png">
+
+
+
+   
