@@ -706,3 +706,34 @@ Image of the results
 
 <img width="633" alt="rook move" src="https://user-images.githubusercontent.com/112055062/191705369-cc445469-4226-4d5b-9d33-a8a36aba6745.png">
 
+## Chess board - black square
+
+Given a square of a chessboard. Print BLACK if it's black and print WHITE otherwise
+
+```.py
+column = int(input())
+row = int(input())
+if column in [1,3,5,7]:
+    if row in [1,3,5,7]:
+        outcome = "BLACK"
+    if row in [2,4,6,8]:
+        outcome = "WHITE"
+if column in [2,4,6,8]:
+    if row in [1,3,5,7]:
+        outcome = "WHITE"
+    if row in [2,4,6,8]:
+        outcome = "BLACK"
+print(outcome)
+```
+
+Image of the result
+
+<img width="511" alt="Chess board-black square" src="https://user-images.githubusercontent.com/112055062/191762949-f2cf78d2-ba5b-41cd-bcf8-06adaad9f824.png">
+
+## Chess board - same color
+
+Given two cells of a chessboard. If they are painted in one color, print the word YES, and if in a different color - NO.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell.
+
+
+
