@@ -683,3 +683,26 @@ Image of the results
 
 <img width="823" alt="Equal numbers" src="https://user-images.githubusercontent.com/112055062/187332230-82525f7a-b0f9-442c-8bcb-393c93f5cad6.png">
 
+## Rook move
+
+Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.
+
+```.py
+columnA = int(input())
+rowA = int(input())
+columnB = int(input())
+rowB = int(input())
+
+if columnA == columnB:
+    outcome = "YES"
+elif rowA == rowB:
+    outcome = "YES"
+else:
+    outcome = "NO"
+print(outcome)
+```
+
+Image of the results
+
+<img width="633" alt="rook move" src="https://user-images.githubusercontent.com/112055062/191705369-cc445469-4226-4d5b-9d33-a8a36aba6745.png">
+
