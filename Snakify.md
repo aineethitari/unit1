@@ -735,5 +735,37 @@ Image of the result
 Given two cells of a chessboard. If they are painted in one color, print the word YES, and if in a different color - NO.
 The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell.
 
+```.py
+columnA= int(input())
+rowA = int(input())
+columnB = int(input())
+rowB = int(input())
 
+if columnA%2==0 and rowA%2==0:
+    outcomeA = "black"
+if columnA%2!=0 and rowA%2!=0:
+    outcomeA = "black"
+if columnA%2==0 and rowA%2!=0:
+    outcomeA = "white"
+if columnA%2!=0 and rowA%2==0:
+    outcomeA = "white"
+
+if columnB%2==0 and rowB%2==0:
+    outcomeB = "black"
+if columnB%2!=0 and rowB%2!=0:
+    outcomeB = "black"
+if columnB%2==0 and rowB%2!=0:
+    outcomeB = "white"
+if columnB%2!=0 and rowB%2==0:
+    outcomeB = "white"
+
+if outcomeA == outcomeB:
+    print("YES")
+if not outcomeA == outcomeB:
+    print("NO")
+```
+
+Image of the result
+
+<img width="351" alt="chess board - same color" src="https://user-images.githubusercontent.com/112055062/191777837-cd2bc2d1-7496-4608-8225-ebc3f10316b3.png">
 
