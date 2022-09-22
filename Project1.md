@@ -16,7 +16,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
-The cryptocurrency I am going to work with is
+The cryptocurrency I am going to work with is MANA
 
 Justify the tools/structure of your solution
 
