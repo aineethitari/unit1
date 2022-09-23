@@ -14,9 +14,9 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land. This ledger will be constructed using the software Python. It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
+I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [1]. This ledger will be constructed using the software Python. It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
 
-Reference: “Decentraland Price, Chart, &amp; Supply Details - Mana Price.” Gemini, https://www.gemini.com/prices/decentraland. 
+[1] “Decentraland Price, Chart, &amp; Supply Details - Mana Price.” Gemini, https://www.gemini.com/prices/decentraland. 
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
