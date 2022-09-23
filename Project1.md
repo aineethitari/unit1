@@ -14,19 +14,15 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a digital ledger for a client who is Ms.Sato. The ——– will about ———— and is constructed using the software Python. It will take  ———- to make and will be evaluated according to the criteria ———.
-
-The cryptocurrency I am going to work with is MANA
-
-Justify the tools/structure of your solution
+I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land. This ledger will be constructed using the software Python. It will take approximately 3 weeks to make and will be evaluated according to the criteria:
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
-2. The electronic ledger display the basic description of the cyrptocurrency selected.
+2. The electronic ledger displays the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger displays MANA coverted to USD.
+5. The electronic ledger allows Ms.Sato to add a side note about her transactions. 
+6. The electronic ledger 
 
 # Criteria B: Design
 
@@ -39,5 +35,7 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | B         |
+|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 2       | Design success criterior                                      | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | B         |
 
 
