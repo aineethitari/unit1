@@ -36,6 +36,6 @@ I will design and make a digital ledger for a client who is Ms.Sato. The ledger 
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 22                 | B         |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 2       | Design success criterior                                      | To plan a proper plan for the funnctions of the ledger                         | 10min         | Sep 23                 | B         |
+| 2       | Design success criterior                                      | To plan the functions of the ledger.                         | 10min         | Sep 23                 | A         |
 
 
