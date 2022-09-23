@@ -14,7 +14,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a digital ledger for a client who is Ms.Sato. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a digital ledger for a client who is Ms.Sato. The ——– will about ———— and is constructed using the software Python. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 The cryptocurrency I am going to work with is MANA
 
