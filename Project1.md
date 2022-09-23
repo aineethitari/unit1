@@ -21,8 +21,8 @@ I will design and make a digital ledger for a client who is Ms.Sato. The ledger 
 2. The electronic ledger displays the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger displays MANA coverted to USD.
-5. The electronic ledger allows Ms.Sato to add a side note about her transactions. 
-6. The electronic ledger 
+5. The electronic ledger allows the client to add a side note about her transactions. 
+6. The electronic ledger allows the client to type the date and search for past transactions.
 
 # Criteria B: Design
 
