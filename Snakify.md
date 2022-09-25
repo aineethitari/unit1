@@ -922,4 +922,68 @@ Image of the result
 Chess knight moves like the letter L. It can move two cells horizontally and one cell vertically, or two cells vertically and one cells horizontally. Given two different cells of the chessboard, determine whether a knight can go from the first cell to the second in one move.
 The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a knight can go from the first cell to the second in one move, or NO otherwise.
 
+```.py
+columnA = int(input())
+rowA = int(input())
+columnB = int(input())
+rowB = int(input())
+if (columnA + 2 == columnB or columnA - 2 == columnB) and (rowA + 1 == rowB or rowA - 1 == rowB):
+    output = "YES"
+elif (rowA + 2 == rowB or rowA - 2 == rowB) and (columnA + 1 == columnB or columnA -1 == columnB):
+    output = "YES"
+else:
+    output = "NO"
+print(output)
+```
+
+Image of the result
+
+<img width="483" alt="Knight move" src="https://user-images.githubusercontent.com/112055062/192146930-b131392b-95d9-4f34-a15f-d1c579d382ee.png">
+
+## Chocolate bar
+
+Chocolate bar has the form of a rectangle divided into n×m portions. Chocolate bar can be split into two rectangular parts by breaking it along a selected straight line on its pattern. Determine whether it is possible to split it so that one of the parts will have exactly k squares.
+The program reads three integers: n, m, and k. It should print YES or NO.
+
+```.py
+n = int(input())
+m = int(input())
+k = int(input())
+if n*m > k:
+    if k % n == 0 or k % m == 0:
+        print("YES")
+    else:
+        print("NO")
+else:
+    print("NO")
+```
+
+Image of the result:
+
+<img width="475" alt="chocolate bar" src="https://user-images.githubusercontent.com/112055062/192147901-04f6ae3f-bfe8-40b9-9aa8-c348eee3d1cc.png">
+
+## Leap year
+
+Given the year number. You need to check if this year is a leap year. If it is, print LEAP, otherwise print COMMON.
+The rules in Gregorian calendar are as follows:
+
+a year is a leap year if its number is exactly divisible by 4 and is not exactly divisible by 100
+a year is always a leap year if its number is exactly divisible by 400
+Warning. The words LEAP and COMMON should be printed all caps.
+
+```.py
+year = int(input())
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print("LEAP")
+else:
+    print("COMMON")
+```
+
+Image of the result:
+
+<img width="284" alt="Leap year" src="https://user-images.githubusercontent.com/112055062/192148136-917414dd-d663-40ee-8cc7-6b95b431d609.png">
+
+## Days in month
+
+Given a month - an integer from 1 (January) to 12 (December), print the number of days in it in the year 2017 (or any other non-leap year).
 
