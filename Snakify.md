@@ -861,3 +861,65 @@ Image of the result
 In chess, the bishop moves diagonally, any number of squares. Given two different squares of the chessboard, determine whether a bishop can go from the first to the second in one move.
 The program receives as input four numbers from 1 to 8, specifying the column and row numbers of the starting square and the column and row numbers of the ending square. The program should output YES if a Bishop can go from the first square to the second in one move, or NO otherwise.
 
+```.py
+columnA = int(input())
+rowA = int(input())
+columnB = int(input())
+rowB = int(input())
+if abs(columnA-columnB) == abs(rowA-rowB):
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the result:
+
+<img width="618" alt="Bishop move" src="https://user-images.githubusercontent.com/112055062/192140009-18894174-3430-49c9-9044-635d73c2ba1c.png">
+
+## Queen move
+
+Chess queen moves horizontally, vertically or diagonally to any number of cells. Given two different cells of the chessboard, determine whether a queen can go from the first cell to the second in one move.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a queen can go from the first cell to the second in one move, or NO otherwise.
+
+```.py
+columnA = int(input())
+rowA = int(input())
+columnB = int(input())
+rowB = int(input())
+if (abs(columnA-columnB)) == (abs(rowB-rowA)) or columnA == columnB or rowA == rowB:
+    output = "YES"
+else:
+    output = "NO"
+print(output)
+```
+
+Image of the result
+
+<img width="618" alt="Bishop move" src="https://user-images.githubusercontent.com/112055062/192140964-555a3cba-c928-4746-b78e-882dd2b20e6b.png">
+
+## Index of outlier
+
+Given three integers: two are equal to each other and the third one is different. Print the index number of this different one - 1, 2 or 3.
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b:
+    print("3")
+if a == c:
+    print("2")
+if b == c:
+    print("1")
+```
+
+Image of the result
+
+<img width="296" alt="Index of outlier" src="https://user-images.githubusercontent.com/112055062/192141078-16332746-7c90-4c65-9c08-6d10d1549ed6.png">
+
+## Knight move
+
+Chess knight moves like the letter L. It can move two cells horizontally and one cell vertically, or two cells vertically and one cells horizontally. Given two different cells of the chessboard, determine whether a knight can go from the first cell to the second in one move.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a knight can go from the first cell to the second in one move, or NO otherwise.
+
+
