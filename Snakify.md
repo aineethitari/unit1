@@ -987,3 +987,49 @@ Image of the result:
 
 Given a month - an integer from 1 (January) to 12 (December), print the number of days in it in the year 2017 (or any other non-leap year).
 
+```.py
+month = int(input())
+if month in [4,6,9,11]:
+    print("30")
+elif month == 2:
+    print("28")
+else:
+    print("31")
+```
+
+Image of the result:
+
+<img width="401" alt="Days in month" src="https://user-images.githubusercontent.com/112055062/192148382-d198d680-dda2-4032-85b5-2f1dcb58ada9.png">
+
+## Next day
+
+Given the month (an integer from 1 to 12) and the day in it (an integer from 1 to 31) in the year 2017 (or in any other common year), print the month and the day of the next day to it. The first test corresponds to March 30 and March 31. The second test corresponds to March 31 and April 1.
+
+```.py
+month = int(input())
+day = int(input())
+
+if month == 12 and day == 31:
+    month = 1
+    day = 1
+    
+elif (month in [1,3,5,7,8,10,12] and day == 31) or (month in [4,6,9,11] and day == 30) or (month == 2 and day == 28):
+    month += 1
+    day = 1
+
+else:
+    day += 1
+
+print(month)
+print(day)
+```
+
+Image of the result:
+
+<img width="611" alt="Next day" src="https://user-images.githubusercontent.com/112055062/192150020-a2d0c895-643d-45e5-85cf-bf7045f120fb.png">
+
+## Linear equation
+
+Write a program that solves a linear equation ax = b in integers. Given two integers a and b (a may be zero), print a single integer root if it exists and print "no solution" or "many solutions" otherwise.
+
+
