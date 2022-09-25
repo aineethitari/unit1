@@ -822,4 +822,42 @@ Image of the result
 
 <img width="486" alt="Four digit palindrome" src="https://user-images.githubusercontent.com/112055062/191781484-e017e4da-742f-4e16-8e74-e5dd26695d04.png">
 
-   
+## King move
+
+Chess king moves horizontally, vertically or diagonally to any adjacent cell. Given two different cells of the chessboard, determine whether a king can go from the first cell to the second in one move.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a king can go from the first cell to the second in one move, or NO otherwise.
+
+```.py
+columnA = int(input())
+rowA = int(input())
+columnB = int(input())
+
+rowB = int(input())
+if columnB == columnA + 1:
+    columnB = "check"
+if columnB == columnA - 1:
+    columnB = "check"
+if columnB == columnA:
+    columnB = "check"
+if rowB == rowA + 1:
+    rowB = "check"
+if rowB == rowA - 1:
+    rowB = "check"
+if rowB == rowA:
+    rowB = "check"
+
+if columnB == "check" and rowB == "check":
+    print("YES")
+else:
+    print("NO")
+```
+
+Image of the result
+
+<img width="645" alt="King move" src="https://user-images.githubusercontent.com/112055062/192127027-7d195553-bb7a-45a4-90ed-9e65ef52a58b.png">
+
+## Bishop moves
+
+In chess, the bishop moves diagonally, any number of squares. Given two different squares of the chessboard, determine whether a bishop can go from the first to the second in one move.
+The program receives as input four numbers from 1 to 8, specifying the column and row numbers of the starting square and the column and row numbers of the ending square. The program should output YES if a Bishop can go from the first square to the second in one move, or NO otherwise.
+
