@@ -1148,4 +1148,85 @@ Image of the result:
 
 <img width="368" alt="sort three numbers" src="https://user-images.githubusercontent.com/112055062/192510597-5e9ab1d6-1ea4-45b1-95d5-7d32c24aa014.png">
 
+## Count to N
+
+Given an integer N, print all the numbers from 1 to N.
+
+```.py
+N = int(input())
+for i in range(1,N+1):
+    print(i)
+```
+
+Image of the result
+
+<img width="229" alt="count to N" src="https://user-images.githubusercontent.com/112055062/192561349-33f61978-9f20-40ea-8a3e-0689e1067d7d.png">
+
+## Series - 1
+
+Given two integers A and B (A ≤ B). Print all numbers from A to B inclusively.
+
+```.py
+A = int(input())
+B = int(input())
+for i in range(A,B+1):
+    print(i)
+```
+
+Image of the result
+
+<img width="191" alt="Series - 1" src="https://user-images.githubusercontent.com/112055062/192562673-5df93749-98d6-4711-8180-66d48e09a3bb.png">
+
+## First N odd, ascending
+
+Given an integer N, print all the odd numbers from 1 to N in ascending order.
+
+```.py
+N = int(input())
+for i in range(1,N+1,2):
+    print(i)
+```
+
+Image of the result
+
+<img width="251" alt="First N odd, ascending" src="https://user-images.githubusercontent.com/112055062/192564233-c656c3c6-70b5-4e53-a302-809b4fae0a4b.png">
+
+## Series - 2
+
+Given two integers A and B. Print all numbers from A to B inclusively, in ascending order, if A < B, or in descending order, if A ≥ B.
+
+```.py
+A = int(input())
+B = int(input())
+if A<B:
+    for i in range(A,B+1):
+        print(i)
+if A>=B:
+    for i in range(A,B-1,-1):
+        print(i)
+```
+
+Image of the result
+
+<img width="194" alt="Series - 2" src="https://user-images.githubusercontent.com/112055062/192567483-c407af37-ea5b-473c-b317-5f20d2a78acc.png">
+
+## First N even, descending
+
+Given an integer N, print all the even numbers from 0 to N in descending order.
+
+```.py
+N = int(input())
+if N%2==0:
+    for i in range(N,-1,-2):
+        print(i)
+else:
+    for i in range(N-1,-1,-2):
+        print(i)
+```
+
+Image of the result
+
+<img width="280" alt="First N even, descending" src="https://user-images.githubusercontent.com/112055062/192568928-da0663bb-73da-44a3-b1fa-e7196786892a.png">
+
+
 
