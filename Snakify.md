@@ -1032,4 +1032,24 @@ Image of the result:
 
 Write a program that solves a linear equation ax = b in integers. Given two integers a and b (a may be zero), print a single integer root if it exists and print "no solution" or "many solutions" otherwise.
 
+```.py
+a = int(input())
+b = int(input())
+if a == 0:
+    output = "no solution"
+if b == 0:
+    output = "many solutions"
+if a != 0 and b!=0:
+    output = int(b /a)
+    if output == 0:
+        output = "no solution"
+print(output)
+```
+
+<img width="336" alt="linear equation" src="https://user-images.githubusercontent.com/112055062/192484871-65206de3-7ddd-4033-9976-d82ceb921a9c.png">
+
+## Vertices of rectangle
+
+Given integer coordinates of three vertices of a rectangle whose sides are parallel to the coordinate axes, find the coordinates of the fourth vertex of the rectangle. In the first test the three given vertices are (1, 4), (1, 6), (7, 4). The fourth vertex is thus (7, 6).
+
 
