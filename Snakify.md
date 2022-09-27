@@ -1228,5 +1228,87 @@ Image of the result
 
 <img width="280" alt="First N even, descending" src="https://user-images.githubusercontent.com/112055062/192568928-da0663bb-73da-44a3-b1fa-e7196786892a.png">
 
+## Sum of ten numbers
 
+10 numbers are given in the input. Read them and print their sum. Use as few variables as you can.
+
+```.py
+sum = 0
+for number in range(10):
+    sum += int(input())
+print(sum)
+```
+
+Image of the result
+
+<img width="224" alt="Sum of ten numbers" src="https://user-images.githubusercontent.com/112055062/192571279-300725fc-5e3c-44ae-be94-854d1d7a0911.png">
+
+## Sum of N numbers
+
+N numbers are given in the input. Read them and print their sum.
+The first line of input contains the integer N, which is the number of integers to follow. Each of the next N lines contains one integer. Print the sum of these N integers.
+
+```.py
+N = int(input())
+sum = 0
+for i in range(1,N+1):
+    sum += int(input())
+print(sum)
+```
+
+Image of the result
+
+<img width="339" alt="Sum of N numbers" src="https://user-images.githubusercontent.com/112055062/192572760-9b641620-4b16-422e-b76d-7ea0a30e6635.png">
+
+## Product of N numbers
+
+N numbers are given in the input. Read them and print their product.
+The first line of input contains a positive integer N: the number of integers to follow. Each of the next N lines contains one integer. Print the product of these N integers.
+
+```.py
+N = int(input())
+product = 1
+for i in range(1,N+1):
+    product *= int(input())
+print(product)
+```
+
+Image of the result:
+
+<img width="285" alt="Product of N numbers" src="https://user-images.githubusercontent.com/112055062/192574592-0a479146-abac-4aa2-8376-8706feb14b3e.png">
+
+## Sum of cubes
+
+For the given integer N calculate the following sum:
+13+23+…+N3
+
+```.py
+N = int(input())
+all = 0
+for i in range(1,N+1):
+    all += i**3
+print(all)
+```
+
+Image of the result
+
+<img width="340" alt="Sum of cubes" src="https://user-images.githubusercontent.com/112055062/192575297-e46d8cbb-6b93-4aa6-ac46-b6f698dff444.png">
+
+## Factorial
+
+In mathematics, the factorial of an integer n, denoted by n! is the following product:
+n!=1×2×…×n
+For the given integer n calculate the value n!. Don't use math module in this exercise.
+
+```.py
+n = int(input())
+n_fact = 1
+for i in range(1,n+1):
+    n_fact *= i
+print(n_fact)
+```
+
+Image of the result
+
+<img width="372" alt="Factorial" src="https://user-images.githubusercontent.com/112055062/192575962-c798d5f6-25dc-40a7-9002-0ccbdeee9e9d.png">
 
