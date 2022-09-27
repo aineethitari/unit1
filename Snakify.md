@@ -1046,10 +1046,106 @@ if a != 0 and b!=0:
 print(output)
 ```
 
+Image of the result
+
 <img width="336" alt="linear equation" src="https://user-images.githubusercontent.com/112055062/192484871-65206de3-7ddd-4033-9976-d82ceb921a9c.png">
 
 ## Vertices of rectangle
 
 Given integer coordinates of three vertices of a rectangle whose sides are parallel to the coordinate axes, find the coordinates of the fourth vertex of the rectangle. In the first test the three given vertices are (1, 4), (1, 6), (7, 4). The fourth vertex is thus (7, 6).
+
+```.py
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+x3 = int(input())
+y3 = int(input())
+if x1 == x2:
+    x4 = x3
+elif x2 == x3:
+    x4 = x1
+elif x3 == x1:
+    x4 = x2
+print(x4)
+   
+if y1 == y2:
+    y4 = y3
+elif y2 == y3:
+    y4 = y1
+elif y3 == y1:
+    y4 = y2
+print(y4)
+```
+
+Image of the result
+
+<img width="373" alt="Vertices of rectangle" src="https://user-images.githubusercontent.com/112055062/192500525-3b3048b3-996d-47c7-a9ec-b07d18ef4ae9.png">
+
+## Sort three numbers
+
+Given three integers, print them in ascending order.
+
+```.py
+a = int(input())
+b = int(input())
+c = int(input())
+if a<b<c:
+    print(a)
+    print(b)
+    print(c)
+if a<c<b:
+    print(a)
+    print(c)
+    print(b)
+if b<a<c:
+    print(b)
+    print(a)
+    print(c)
+if b<c<a:
+    print(b)
+    print(c)
+    print(a)
+if c<a<b:
+    print(c)
+    print(a)
+    print(b)
+if c<b<a:
+    print(c)
+    print(b)
+    print(a)
+if a==b and b<c:
+    print(a)
+    print(b)
+    print(c)
+if a==b and c<b:
+    print(c)
+    print(a)
+    print(b)
+if a==c and a<b:
+    print(a)
+    print(c)
+    print(b)
+if a==c and b<a:
+    print(b)
+    print(a)
+    print(c)
+if b==c and c<a:
+    print(b)
+    print(c)
+    print(a)
+if b==c and a<c:
+    print(a)
+    print(b)
+    print(c)
+if a==b and b==c:
+    print(a)
+    print(b)
+    print(c)
+```
+
+Image of the result:
+
+<img width="368" alt="sort three numbers" src="https://user-images.githubusercontent.com/112055062/192510597-5e9ab1d6-1ea4-45b1-95d5-7d32c24aa014.png">
 
 
