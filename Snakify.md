@@ -1312,3 +1312,118 @@ Image of the result
 
 <img width="372" alt="Factorial" src="https://user-images.githubusercontent.com/112055062/192575962-c798d5f6-25dc-40a7-9002-0ccbdeee9e9d.png">
 
+## The number of zeros
+
+Given N numbers: the first number in the input is N, after that N integers are given. Count the number of zeros among the given integers and print it.
+You need to count the number of numbers that are equal to zero, not the number of zero digits.
+
+```.py
+N = int(input())
+count = 0
+for i in range(1,N+1):
+    number = int(input())
+    if number == 0:
+        count += 1
+print(count)
+```
+
+Image of the result
+
+<img width="258" alt="The number of zeroes" src="https://user-images.githubusercontent.com/112055062/192578232-608ca453-96bf-495a-b34a-85e70fa4515c.png">
+
+## Adding factorials
+
+Given an integer n, print the sum 1!+2!+3!+...+n!.
+This problem has a solution with only one loop, so try to discover it. And don't use the math library :)
+
+```.py
+n = int(input())
+sum = 0
+factorial = 1
+
+for i in range(n):
+    i += 1
+    factorial *= i
+    sum += factorial
+print(sum)
+```
+
+Image of the result
+
+<img width="308" alt="Adding factorials" src="https://user-images.githubusercontent.com/112055062/192580139-de8964bc-c54c-4f97-87f7-9a3c91220f20.png">
+
+## Squares in range
+
+Given two integers A and B, print squares of all integer numbers between them, as shown below. There shouldn't be any spaces around * and =. The sep argument of the function print() may help you with that.
+
+```.py
+A = int(input())
+B = int(input())
+for i in range(A,B+1):
+    print(str(i)+"*"+str(i)+"="+str(i*i))
+```
+
+Image of the result
+
+<img width="251" alt="Squares in range" src="https://user-images.githubusercontent.com/112055062/192584865-3d04239f-6aac-448b-b144-c6b58fbd4ae4.png">
+
+## Ladder
+
+For given integer n ≤ 9 print a ladder of n steps. The k-th step consists of the integers from 1 to k without spaces between them.
+To do that, you can use the sep and end arguments for the function print().
+
+```.py
+n = int(input())
+count = ""
+for i in range(1,n+1):
+    count += str(i)
+    print(count)
+```
+
+Image of the result
+
+<img width="293" alt="Ladder" src="https://user-images.githubusercontent.com/112055062/192587896-54523d4e-09cc-41f4-accc-99f3d48081c0.png">
+
+## Is prime
+
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Given an integer N > 1, print PRIME if it's prime and print COMPOSITE otherwise.
+
+```.py
+N = int(input())
+out = "PRIME"
+for i in range(2, N):
+    if N % i == 0:
+        out = "COMPOSITE"
+
+print(out)
+```
+
+Image of the result
+
+<img width="411" alt="Prime" src="https://user-images.githubusercontent.com/112055062/192592228-bef898d3-31f2-40b5-a6fb-f63ff2a62b61.png">
+
+## Print primes in range
+
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Given two integers A and B, print all prime numbers between them, inclusively.
+
+```.py
+A = int(input())
+B = int(input())
+for i in range(A,B+1):
+    if i > 1:
+        for x in range(2,i):
+            if i%x == 0:
+                break
+        else:
+            print(i)
+```
+
+Image of the result
+
+<img width="382" alt="Print primes in range" src="https://user-images.githubusercontent.com/112055062/192595359-c0660534-6468-468e-a38a-1c054a34f9e1.png">
+
+## Number of primes in range
+
+A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself. Given two integers A and B, print the number of primes between them, inclusively.
+
+
