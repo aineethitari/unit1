@@ -12,5 +12,10 @@ test1 = mulTable(int(input("Please insert an integer ")))
 print(test1)
 ```
 
+Image of the result:
+
 <img width="867" alt="quiz012" src="https://user-images.githubusercontent.com/112055062/192402881-cf75341d-1a7f-4d8a-a2cc-dc55ec6d4a5d.png">
 
+Image of the flow diagram:
+
+![quiz012](https://user-images.githubusercontent.com/112055062/192406736-e0c61b2e-94c7-48b4-9e2e-97d043fc7714.jpg)
