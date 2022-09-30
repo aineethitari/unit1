@@ -1,4 +1,4 @@
-# Quiz 013
+# quiz 013
 ## Create a function that receives one input and produces the output shown.
 
 ```.py
