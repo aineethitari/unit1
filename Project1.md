@@ -28,6 +28,37 @@ I will design and make a digital ledger for a client who is Ms.Sato. The ledger 
 
 # Criteria B: Design
 
+# Criteria C: Development
+
+## Login System
+
+```.py
+def simple_login(user:str,password:str)->bool:
+    '''
+    Simple authentification, needs file users.csv
+    :param user: string
+    :param password: string
+    :return: True/False if user is in database
+    '''
+    with open("users.csv") as file:
+        database = file.readlines()
+    output = False
+    for line in database:
+        line_cleaned = line.strip() #remove\n
+        user_pass = line_cleaned.split(",")
+        if user == user_pass[0] and password == user_pass[1]:
+            output = True
+            break
+
+    return output
+```
+
+Image of the login system
+
+<img width="1124" alt="Login system" src="https://user-images.githubusercontent.com/112055062/193435730-fe22a5f1-355c-4304-9596-9c33cd77372d.png">
+
+
+
 ## System Diagram
 
 ## Flow Diagrams
