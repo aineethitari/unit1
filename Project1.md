@@ -63,6 +63,10 @@ Image of the login system
 
 ## Flow Diagrams
 
+Login System
+
+![Login system flowchart](https://user-images.githubusercontent.com/112055062/193435763-b5d0bab2-c294-4c8f-8a04-c3945abb29f6.jpg)
+
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
