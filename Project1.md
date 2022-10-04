@@ -65,7 +65,6 @@ Image of the login system
 
 Login System
 
-![Login system flowchart](https://user-images.githubusercontent.com/112055062/193435763-b5d0bab2-c294-4c8f-8a04-c3945abb29f6.jpg)
 
 
 ## Record of Tasks
@@ -77,5 +76,7 @@ Login System
 | 4       | Created a flow diagram for login system                                    | To illustrate a picture of how the login system works and plan before coding              | 10min         | Sep 27                 | B         |
 | 5       | Coded the login system with username and user's password                                   | To have a secure system and not to let any of the user's information leaked out            | 50min         | Sep 27                 | C         |
 | 6       | Tested the login system with several usernames and passwords                                   | To make sure the login system works            | 5 min         | Sep 27                 | D         |
-| 7       | Coded the menu                                   | To make sure the login system works            | 1 hr         | Oct 02                 | C         |
-
+| 7       | Coded the menu                                   |To let the user select the options of the program         | 30 hr         | Oct 02                 | C         |
+| 9      | Coded the option 2: Record MANA deposit and show total balance                               |To allow users to find a place to store there value of MANA.      | 1 hour         | Oct 02                 | C         |
+| 10      | Coded function to validate user's transaction date.                                |Users can keep track of the date they have made the transaction       | 1 hour         | Oct 04                 | C         |
+| 11      | Coded option number 4: Convert MANA balance to USD                                |Users know can compare the MANA value to a universally familiarized currency.      | 15 min         | Oct 04                 | C         |
