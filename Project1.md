@@ -77,4 +77,5 @@ Login System
 | 4       | Created a flow diagram for login system                                    | To illustrate a picture of how the login system works and plan before coding              | 10min         | Sep 27                 | B         |
 | 5       | Coded the login system with username and user's password                                   | To have a secure system and not to let any of the user's information leaked out            | 50min         | Sep 27                 | C         |
 | 6       | Tested the login system with several usernames and passwords                                   | To make sure the login system works            | 5 min         | Sep 27                 | D         |
+| 7       | Coded the menu                                   | To make sure the login system works            | 1 hr         | Oct 02                 | C         |
 
