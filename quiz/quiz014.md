@@ -19,3 +19,6 @@ Image of the result:
 
 <img width="601" alt="quiz013 pycharm" src="https://user-images.githubusercontent.com/112055062/193710511-1a712935-0b3d-4493-8d3a-ac803f98f2a9.png">
 
+Image of the flowchart
+
+![Untitled Diagram](https://user-images.githubusercontent.com/112055062/193765773-bc4806a8-b886-4605-be08-ee967a82c6d4.jpg)
