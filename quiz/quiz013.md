@@ -14,8 +14,7 @@ print(numbers(10,10))
 
 Flowchart
 
-![Quiz013 (1)](https://user-images.githubusercontent.com/112055062/193400535-05d4a2df-5a01-4546-befd-a792a8508495.jpg)
-
+![Quiz013_flowchart](https://user-images.githubusercontent.com/112055062/193767762-5b228805-7349-46cb-8acd-fb0ef159bca3.jpg)
 
 Result
 
