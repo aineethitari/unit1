@@ -18,4 +18,4 @@ Image of the result:
 
 Image of the flow diagram:
 
-![quiz012](https://user-images.githubusercontent.com/112055062/192406736-e0c61b2e-94c7-48b4-9e2e-97d043fc7714.jpg)
+![Quiz012_Flowchart](https://user-images.githubusercontent.com/112055062/193770080-fdd13077-1574-4d47-b5b9-16fe4770c098.jpg)
