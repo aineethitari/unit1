@@ -14,9 +14,15 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [1]. This ledger will be constructed using the software Python. It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
+I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [1].
+
+This ledger will be constructed using the software Python. We have decided to use this software because of its simple syntax[2]. The straightforward language is very similar to English. Therefore, when there is a need to edit the functions, the developer will be able to do so easily. Moreover, Python is also commonly used for data analytics. Using Python, datas can be collected, and organized safely. Lastly, as this project is to create a digital wallet for the client, it is important that Python is also a great fit for finance in dealing with quantitative data.
+
+It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
 
 [1] “Decentraland Price, Chart, &amp; Supply Details - Mana Price.” Gemini, https://www.gemini.com/prices/decentraland. 
+[2] FutureLearn. “What Is Python Used for?: 10 Practical Python Uses.” FutureLearn, 30 Dec. 2021, https://www.futurelearn.com/info/blog/what-is-python-used-for. 
+
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
@@ -88,7 +94,7 @@ Login System
 | 14      | Tested option number 4: Convert MANA balance to USD manually with white box method by the developer                              |The actual balance in the user's wallet is converted to USD      | 10 min         | Oct 04                 | B         |
 | 15      | Coded option number 3: Record MANA withdrawal and show total balance                                |Users can record the value they have without having to calculate manually by hand      | 1 hour         | Oct 04                 | C         |
 | 16      | Tested option number 3: Record MANA withdrawal and show total balance manually with white box method by the developer                               |The withdrawal is put into the database correctly and the balance is calculated correctly     | 10 min     | Oct 04                 | B         |
-| 17     | Tested menu options 1-5 grey box testing method by peers who has some knowledge of python|The function is reviewed by another person with some coding knowledge     | 10 hour         | Oct 05                 | B         |
+| 17     | Tested menu options 1-5 grey box testing method by peers who has some knowledge of python|The function is reviewed by another person with some coding knowledge     | 10 min         | Oct 05                 | B         |
 | 18     | Coded option number 5: User notes                                |Users can record any notes they want to put on with the dates to keep track of what is going on      | 1 hour         | Oct 05                 | C         |
 | 19      | Update some of the errors in the functions such as the Validate date function      |Make sure there will be no errors      | 2 hr         | Oct 05                 | C         |
 | 20      | Tested the functions with a senior with python knowledge usin the grey box method   |Make sure the functions are understandable and works efficienly     | 20 min         | Oct 06                 | B         |
