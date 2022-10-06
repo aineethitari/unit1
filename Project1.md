@@ -77,12 +77,13 @@ Login System
 | 3       | Meet with the client to discuss the success criteria for approval                                   | To make sure the client is on the same page with the designer and have an agreement on the functions of the ledger.            | 10min         | Sep 23                 | A         |
 | 4       | Created a flow diagram for login system                                    | To illustrate a picture of how the login system works and plan before coding              | 10min         | Sep 27                 | B         |
 | 5       | Coded the login system with username and user's password                                   | To have a secure system and not to let any of the user's information leaked out            | 50min         | Sep 27                 | C         |
-| 6       | Tested the login system with several usernames and passwords                                   | To make sure the login system works            | 5 min         | Sep 27                 | D         |
+| 6       | Tested the login system with several usernames and passwords                                   | To make sure the login system works            | 5 min         | Sep 27                 | B         |
 | 7       | Coded the menu                                   |To let the user select the options of the program         | 30 hr         | Oct 02                 | C         |
+| 8       | Tested the menu manually with white box method by the developer   |To make sure the menu functions and each options can be used         | 5 min         | Oct 02                 | B         |
 | 9      | Coded the option 2: Record MANA deposit and show total balance                               |To allow users to find a place to store there value of MANA.      | 1 hour         | Oct 02                 | C         |
 | 10      | Coded function to validate user's transaction date.                                |Users can keep track of the date they have made the transaction       | 1 hour         | Oct 04                 | C         |
 | 11      | Coded option number 4: Convert MANA balance to USD                                |Users know can compare the MANA value to a universally familiarized currency.      | 15 min         | Oct 04                 | C         |
 | 12      | Coded option number 3: Record MANA withdrawal and show total balance                                |Users can record the value they have without having to calculate manually by hand      | 1 hour         | Oct 04                 | C         |
 | 13     | Coded option number 5: User notes                                |Users can record any notes they want to put on with the dates to keep track of what is going on      | 1 hour         | Oct 05                 | C         |
 | 14      | Update some of the errors in the functions such as the Validate date function      |Make sure there will be no errors      | 2 hr         | Oct 05                 | C         |
-| 15      |                                 |Users can record the value they have without having to calculate manually by hand      | 15 min         | Oct 05                 | C         |
+
