@@ -57,6 +57,12 @@ Login System
 
 **Figure 4*** The flow diagram above shows the process in recording the deposit of the MANA coin. The program starts with asking for two inputs which are the amount that the user want to deposit and the date of the transaction. Then the file MANA_database.csv is used to record the new information that the user had entered. The program then return a message confirming the user that they have entered the information successfully. Lastly, the program asks the user whether they want to know the total balance of the MANA coin in the wallet. 
 
+## Test Plan
+
+| Description | Type | Inputs | Outputs | 
+| ----------- | ---- | ------ | ------- |
+| | | |
+
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
@@ -88,6 +94,7 @@ Login System
 | 25      | Finish the system diagram | Make sure the clients understand the system behind the wallet | 30 min      | Oct 07                 | B         |
 | 26      |Write the description of the flowchart in figure 2 | Guide the client to understand how the flowchart works | 10 min      | Oct 07                 | B         |
 | 27      | Create a flowchart for option 6: enter date and search for transaction  | Show the users how the program works in a clearer way | 20 min      | Oct 07                 | B         |
+| 28      | Create a flowchart for option 2: user record transaction and show total balance |To let the users know how the program was created | 30 min      | Oct 07                 | B         |
 
 # Criteria C: Development
 
