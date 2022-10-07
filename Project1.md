@@ -61,7 +61,7 @@ Login System
 
 | Description | Type | Inputs | Outputs | 
 | ----------- | ---- | ------ | ------- |
-| | | |
+|Login system |White box, unit test, functional | 1. Enter the username 2.Enter password | If the user entered the correct username and password, the program will continue to the next page. If the user entered the wrong username and password, the program will print: Wrong password and username. Please enter again.|
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
