@@ -53,6 +53,10 @@ Login System
 
 **Figure 3** The flow diagram above shows the operation of option 6 from the menu which allows the user to enter a date and the program will search for the date in a csv file called MANA_database.csv which records all the transactions made and the date. The program will read the file then look for the date that matches with the element on the list in the file. Then it prints out the list of transactions that was made on that day.  
 
+![Option 2](https://user-images.githubusercontent.com/112055062/194602180-870beda6-db90-4dc9-b5e5-12a0f01f932d.jpg)
+
+**Figure 4*** The flow diagram above shows the process in recording the deposit of the MANA coin. The program starts with asking for two inputs which are the amount that the user want to deposit and the date of the transaction. Then the file MANA_database.csv is used to record the new information that the user had entered. The program then return a message confirming the user that they have entered the information successfully. Lastly, the program asks the user whether they want to know the total balance of the MANA coin in the wallet. 
+
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
