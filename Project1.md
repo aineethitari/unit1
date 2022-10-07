@@ -36,6 +36,7 @@ It will take approximately 3 weeks to make and will be evaluated according to th
 # Criteria B: Design
 
 ## System Diagram
+![System Diagram for Ms Sato's Digital Ledger](https://user-images.githubusercontent.com/112055062/194578905-70a24809-1be2-4b4f-9aa8-03e88e8348d4.jpg)
 
 ## Flow Diagrams
 
