@@ -61,8 +61,9 @@ Login System
 
 | Description | Type | Inputs | Outputs | 
 | ----------- | ---- | ------ | ------- |
-|Login system |White box, unit test, functional | 1. Enter the username 2.Enter password | If the user entered the correct username and password, the program will continue to the next page. If the user entered the wrong username and password, the program will print: Wrong password and username. Please enter again.|
-
+|Login system |White box, integration test, functional | 1. Enter the username 2.Enter password | If the user entered the correct username and password, the program will continue to the next page. If the user entered the wrong username and password, the program will print: Wrong password and username. Please enter again.|
+|User password database check| unit test, functional| 1. Open username and password section on the file: users.csv 2.Check that each lines contain a value with two elements separated by commas| If the users usernames and passwords are listed in the correct format, the passwords will match.|
+|Menu check|Unit test, White box, functional| 1.Enter the option number of all the 6 options available 2.Enter a wrong number outside of the six options | If the number entered is within the 6 options available, the program should continue to the options chosen. If the number entered is the incorrect number, the program should return "8 is in correct. Please enter an option [1-6]".
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
