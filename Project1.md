@@ -37,7 +37,9 @@ It will take approximately 3 weeks to make and will be evaluated according to th
 # Criteria B: Design
 
 ## System Diagram
-![System Diagram for Ms Sato's Digital Ledger](https://user-images.githubusercontent.com/112055062/194578905-70a24809-1be2-4b4f-9aa8-03e88e8348d4.jpg)
+
+![System Diagram for Ms Sato's Digital Ledger (1)](https://user-images.githubusercontent.com/112055062/194588794-dbd90252-5cb8-42a0-a603-5122bfe5f428.jpg)
+
 
 ## Flow Diagrams
 
@@ -45,7 +47,7 @@ Login System
 
 ![simple login flowchart](https://user-images.githubusercontent.com/112055062/194010929-a551d6ab-b774-4920-b2d2-2d46d6ce22be.jpg)
 
-**Figure 2** The flow diagram above shows the diagram of the login system. 
+**Figure 2** The flow diagram above shows the diagram of the login system. The login system is a function called simple_login which asks for inputs of the username and the password. Then the input of the username and the password is being compared to the list of usernames and passwords in a file called users.csv. The for loop is used to check every lines in users.csv. If the username entered matches the elements that records the username, and the password matches the password recorded in the list, the user entered the correct login information and can continue to the next section.
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
