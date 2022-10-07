@@ -82,6 +82,8 @@ Login System
 | 23      | Added the code for the users to return to menu once they have used a function |Users do not need to re-login or run the program again if they want to use another function   | 1 hr         | Oct 07                 | C         |
 | 24      | Decorated the program to make the printed looks nice and colorful | Aesthetically appealing interface for users   | 1 hr         | Oct 07                 | C         |
 | 25      | Finish the system diagram | Make sure the clients understand the system behind the wallet | 30 min      | Oct 07                 | B         |
+| 26      |Write the description of the flowchart in figure 2 | Guide the client to understand how the flowchart works | 10 min      | Oct 07                 | B         |
+| 27      | Create a flowchart for option 6: enter date and search for transaction  | Show the users how the program works in a clearer way | 20 min      | Oct 07                 | B         |
 
 # Criteria C: Development
 
