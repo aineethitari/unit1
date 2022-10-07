@@ -1,7 +1,8 @@
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
+![Mana decentraland](https://user-images.githubusercontent.com/112055062/194583498-f724d121-a418-4107-abe7-69a1692e21b1.png)
+
+**Figure 1** The picture above shows the icon of the MANA coin used in Decentraland[1]
 
 # Criteria A: Planning
 
@@ -13,15 +14,15 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 
 ## Proposed Solution
 
-I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [1]. 
+I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [2]. 
 
 ## Rationale for the Proposed Solution:
 
-I have chosen MANA as the currency for the client because MANA can be a good addition to the client's portfolio as the price movement of MANA is quite smooth and constant[2]. The financialisation of video gaming(GameFi)is also becoming more trendy these days. As MANA is used in Decentraland to buy assets and sell land, I encourage the client to explore the world of GameFi by using MANA.   
+I have chosen MANA as the currency for the client because MANA can be a good addition to the client's portfolio as the price movement of MANA is quite smooth and constant[3]. The financialisation of video gaming(GameFi)is also becoming more trendy these days. As MANA is used in Decentraland to buy assets and sell land, I encourage the client to explore the world of GameFi by using MANA.   
 
-This ledger will be constructed using the software Python3. I have decided to use this software because of its simple syntax[3]. The straightforward language is very similar to English. Therefore, when there is a need to edit the functions, the developer will be able to do so easily. Moreover, Python3 is also commonly used for data analytics. Using Python3, datas can be collected, and organized safely. Lastly, as the main goal is to create digital wallet for the client, Python3 is also a great fit for finance in dealing with quantitative data. 
+This ledger will be constructed using the software Python3. I have decided to use this software because of its simple syntax[4]. The straightforward language is very similar to English. Therefore, when there is a need to edit the functions, the developer will be able to do so easily. Moreover, Python3 is also commonly used for data analytics. Using Python3, datas can be collected, and organized safely. Lastly, as the main goal is to create digital wallet for the client, Python3 is also a great fit for finance in dealing with quantitative data. 
 
-The data used in this wallet will be stored in a CSV file as they are simple and easy to use to store data. It is a plain text file, so using it to organize a big amount of data like the data in the client's wallet is a good fit.[4]
+The data used in this wallet will be stored in a CSV file as they are simple and easy to use to store data. It is a plain text file, so using it to organize a big amount of data like the data in the client's wallet is a good fit.[5]
 
 It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
 
@@ -104,11 +105,12 @@ Image of the login system
 <img width="1124" alt="Login system" src="https://user-images.githubusercontent.com/112055062/193435730-fe22a5f1-355c-4304-9596-9c33cd77372d.png">
 
 ## Citation
+[1] Binance Academy. “What Is Decentraland (Mana)?” Binance Academy, Binance Academy, 18 Nov. 2021, https://academy.binance.com/en/articles/what-is-decentraland. 
 
-[1] “Decentraland Price, Chart, &amp; Supply Details - Mana Price.” Gemini, https://www.gemini.com/prices/decentraland. 
+[2] “Decentraland Price, Chart, &amp; Supply Details - Mana Price.” Gemini, https://www.gemini.com/prices/decentraland. 
 
-[2] “Decentraland (Mana) Price Prediction 2021&nbsp;2022&nbsp;2023-2040.” Changelly.com, 6 Oct. 2022, https://changelly.com/blog/decentraland-mana-price-prediction/. 
+[3] “Decentraland (Mana) Price Prediction 2021&nbsp;2022&nbsp;2023-2040.” Changelly.com, 6 Oct. 2022, https://changelly.com/blog/decentraland-mana-price-prediction/. 
 
-[3] FutureLearn. “What Is Python Used for?: 10 Practical Python Uses.” FutureLearn, 30 Dec. 2021, https://www.futurelearn.com/info/blog/what-is-python-used-for. 
+[4] FutureLearn. “What Is Python Used for?: 10 Practical Python Uses.” FutureLearn, 30 Dec. 2021, https://www.futurelearn.com/info/blog/what-is-python-used-for. 
 
-[4]“What Is a .CSV File and What Does It Mean for My Ecommerce Business?” BigCommerce, https://www.bigcommerce.com/ecommerce-answers/what-csv-file-and-what-does-it-mean-my-ecommerce-business/. 
+[5]“What Is a .CSV File and What Does It Mean for My Ecommerce Business?” BigCommerce, https://www.bigcommerce.com/ecommerce-answers/what-csv-file-and-what-does-it-mean-my-ecommerce-business/. 
