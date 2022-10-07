@@ -1,4 +1,4 @@
-# Crypto Wallet
+# MANA Crypto Wallet
 
 ![Mana decentraland](https://user-images.githubusercontent.com/112055062/194583498-f724d121-a418-4107-abe7-69a1692e21b1.png)
 
