@@ -49,7 +49,7 @@ Login System
 
 **Figure 2** The flow diagram above shows the diagram of the login system. The login system is a function called simple_login which asks for inputs of the username and the password. Then the input of the username and the password is being compared to the list of usernames and passwords in a file called users.csv. The for loop is used to check every lines in users.csv. If the username entered matches the elements that records the username, and the password matches the password recorded in the list, the user entered the correct login information and can continue to the next section.
 
-![calculate balance diagram](https://user-images.githubusercontent.com/112055062/194596343-800ac639-e2b3-4bd8-b44b-e4a0f33fb351.jpg)
+![calculate balance diagram (1)](https://user-images.githubusercontent.com/112055062/194599275-b6c5400f-e86d-45d5-beb9-44aa8fc907b3.jpg)
 
 **Figure 3** The flow diagram above shows the operation of option 6 from the menu which allows the user to enter a date and the program will search for the date in a csv file called MANA_database.csv which records all the transactions made and the date. The program will read the file then look for the date that matches with the element on the list in the file. Then it prints out the list of transactions that was made on that day.  
 
