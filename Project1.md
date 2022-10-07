@@ -67,8 +67,12 @@ Login System
 | 18     | Coded option number 5: User notes                                |Users can record any notes they want to put on with the dates to keep track of what is going on      | 1 hour         | Oct 05                 | C         |
 | 19      | Update some of the errors in the functions such as the Validate date function      |Make sure there will be no errors      | 2 hr         | Oct 05                 | C         |
 | 20      | Tested the functions with a senior with python knowledge usin the grey box method   |Make sure the functions are understandable and works efficienly     | 20 min         | Oct 06                 | B         |
-| 21      | Add elaborated explanations on the reasons why the developer chooses the MANA crypto currency and why the developer chooses Python to develop the program.  |To help the clients understand the purpose behind the decisions made.    | 20 min         | Oct 07                 | A         |
-
+| 21      | Add elaborated explanations on the reasons why the developer chooses the MANA crypto currency and why the developer chooses Python to develop the program.  |To help the clients understand the purpose behind the decisions made.    | 20 min         | Oct 06                 | A         |
+| 22      | Functional test with multiple users and receive feedback |To make sure users would understand how to use the wallet    | 30 min         | Oct 07                 | B         |
+| 23      | Coded option 6: use date to search for transaction |Users can check what transaction was made in each date   | 2 hr         | Oct 07                 | C         |
+| 23      | Added the code for the users to return to menu once they have used a function |Users do not need to re-login or run the program again if they want to use another function   | 1 hr         | Oct 07                 | C         |
+| 24      | Decorated the program to make the printed looks nice and colorful | Aesthetically appealing interface for users   | 1 hr         | Oct 07                 | C         |
+| 25      | Finish the system diagram | Make sure the clients understand the system behind the wallet | 30 min      | Oct 07                 | B         |
 
 # Criteria C: Development
 
