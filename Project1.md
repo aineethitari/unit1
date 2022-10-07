@@ -13,12 +13,15 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 
 ## Proposed Solution
 
-Design statement:
 I will design and make a digital ledger for a client who is Ms.Sato. The ledger will be about MANA which is a digital asset token used to pay for goods and sevices on Decentraland, a virtual world where users can buy, develop, and sell land [1]. 
+
+## Rationale for the Proposed Solution:
 
 I have chosen MANA as the currency for the client because MANA can be a good addition to the client's portfolio as the price movement of MANA is quite smooth and constant[2]. The financialisation of video gaming(GameFi)is also becoming more trendy these days. As MANA is used in Decentraland to buy assets and sell land, I encourage the client to explore the world of GameFi by using MANA.   
 
-This ledger will be constructed using the software Python. I have decided to use this software because of its simple syntax[2]. The straightforward language is very similar to English. Therefore, when there is a need to edit the functions, the developer will be able to do so easily. Moreover, Python is also commonly used for data analytics. Using Python, datas can be collected, and organized safely. Lastly, as this project is to create a digital wallet for the client, it is important that Python is also a great fit for finance in dealing with quantitative data. 
+This ledger will be constructed using the software Python3. I have decided to use this software because of its simple syntax[2]. The straightforward language is very similar to English. Therefore, when there is a need to edit the functions, the developer will be able to do so easily. Moreover, Python3 is also commonly used for data analytics. Using Python3, datas can be collected, and organized safely. Lastly, as the main goal is to create digital wallet for the client, Python3 is also a great fit for finance in dealing with quantitative data. 
+
+The data used in this wallet will be stored in a CSV file as they are simple and easy to use to store data. It is a plain text file, so using it to organize a big amount of data like the data in the client's wallet is a good fit.[4]
 
 It will take approximately 3 weeks to make and will be evaluated according to the criteria below.
 
@@ -27,6 +30,8 @@ It will take approximately 3 weeks to make and will be evaluated according to th
 [2] “Decentraland (Mana) Price Prediction 2021&nbsp;2022&nbsp;2023-2040.” Changelly.com, 6 Oct. 2022, https://changelly.com/blog/decentraland-mana-price-prediction/. 
 
 [3] FutureLearn. “What Is Python Used for?: 10 Practical Python Uses.” FutureLearn, 30 Dec. 2021, https://www.futurelearn.com/info/blog/what-is-python-used-for. 
+
+[4]“What Is a .CSV File and What Does It Mean for My Ecommerce Business?” BigCommerce, https://www.bigcommerce.com/ecommerce-answers/what-csv-file-and-what-does-it-mean-my-ecommerce-business/. 
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
