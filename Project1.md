@@ -72,7 +72,9 @@ Login System
 |Test option 4: Convert MANA balance to USD| Unit test, functional| 1.Enter option 4| The program will show the balance and the amount in USD|
 |Test option 5: option for users to record their notes | Unit test, functional| 1. Enter option 5 2.Enter date 3.Enter note 4.enter 'yes' to see past notes| If enter wrong date, the program asks to enter date again. If enter correct date, the program continues to the next section. After enter note, the program asks if user would like to see past notes. If answer no, the program returns to menu. If enter yes, the program shows  all the notes and the dates entered.|
 |Test option 6: search for translation| Unit test, functional|1.Enter option 6 2.Enter the date in the correct format | If the date is the date that the user have put in the notes before, the note will show. If not the program will return back to the menu.|
-|Edit the aesthetics of the interface| integration, non-functional| 
+|Edit the aesthetics of the interface| integration, non-functional| 1.Run every section of the program 2.Edit the colors and spacings| The printed parts looks understandable and beautiful|
+|Test by users| Integration, Blackbox, Functional, Non-functional| 1.Users use the program as if they were the client 2.Test with no prior knowledge of how the program works| If the users understood what to input in each section, the program will return an output. The output should be what the users are looking for. |
+|End to End Test| System Testing| 1.Check that 
 
 
 
