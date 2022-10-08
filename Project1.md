@@ -120,29 +120,87 @@ Login System
 ## Login System
 
 ```.py
-def simple_login(user:str,password:str)->bool:
+def simple_login(user:str,password:str)->bool: #input username and password and output true/false
     '''
     Simple authentification, needs file users.csv
     :param user: string
     :param password: string
     :return: True/False if user is in database
     '''
-    with open("users.csv") as file:
-        database = file.readlines()
-    output = False
-    for line in database:
+    with open("users.csv") as file: # eligible username and passwords are stored in this file
+        database = file.readlines() # make file into a list
+    output = False # set false as default
+    for line in database: #check every line
         line_cleaned = line.strip() #remove\n
         user_pass = line_cleaned.split(",")
-        if user == user_pass[0] and password == user_pass[1]:
+        if user == user_pass[0] and password == user_pass[1]: #check if the user entered the correct username and password
             output = True
             break
 
     return output
 ```
 
-Image of the login system
+**Figure 6** The figure show the Login System of the wallet. The login system is a function called simple_login which recieves inputs of the username and the password, then returns True or False. The program opens the file users.csv which stores the usernames and passwords which are eligible to open the wallet. Then the usernames and passwords in the file is compared to what the user enters.
 
-<img width="1124" alt="Login system" src="https://user-images.githubusercontent.com/112055062/193435730-fe22a5f1-355c-4304-9596-9c33cd77372d.png">
+```.py
+def validate_date(prompt:str)->str: #user will have to enter date in the correct format otherwise progra will return an error
+    '''
+    This function asks the user for an input and validate the input is a date in the format dd/mm/yy
+    '''
+    end_code = "\033[00m"
+    red = "\33[0;31m"
+
+    date = input(prompt)
+    day = date[0:2] #the index that stores the date
+    month = date[3:5] #index that stores month
+    year = date[6:] #index that stores year
+
+    while len(date)!=8: # if the date is not 8 then it's error
+        date = input(f"{red}Error length Please re-enter the date in the format: dd/mm/yy{end_code}")
+        day = date[0:2]
+        month = date[3:5]
+        year = date[6:]
+
+    while (date[2] != "/" and date[5] != "/") and (not day.isdigit()) and (not month.isdigit()) and (not year.isdigit()): # the 3rd and 6th element needs to be a '/' and day,month,year needs to be integer 
+        date = input(f"{red}Error Please re-enter the date in the format: dd/mm/yy{end_code}")
+        day = date[0:2]
+        month = date[3:5]
+        year = date[6:]
+
+    return date
+```
+
+**Figure 7** The code shows the function that validate the user's date input to be in the format dd/mm/yy. The function ensures that the input is within the length of 8. Then it make sures that the 3rd and the 6th element of the input is a "/". Then it makes sure that the day month and year entered are digits. With all of these limitations, the user would only be able to enter a date in the correct format.
+
+```.py
+color = ["\33[0;30m", "\33[0;31m", "\33[0;32m", "\33[0;34m", "\33[0;35m"]# ascii colors
+end_code = "\033[00m" #use after every color
+
+print(f"""{color[4]}
+▒█▀▄▀█ ░█▀▀█ ▒█▄░▒█ ░█▀▀█ 　 ▒█░░▒█ █▀▀█ █░░ █░░ █▀▀ ▀▀█▀▀ 
+▒█▒█▒█ ▒█▄▄█ ▒█▒█▒█ ▒█▄▄█ 　 ▒█▒█▒█ █▄▄█ █░░ █░░ █▀▀ ░░█░░ 
+▒█░░▒█ ▒█░▒█ ▒█░░▀█ ▒█░▒█ 　 ▒█▄▀▄█ ▀░░▀ ▀▀▀ ▀▀▀ ▀▀▀ ░░▀░░{end_code}""")
+login_msg = f"{color[3]}This is the login page of your MANA wallet{end_code}"
+print(login_msg) #intro before enter username password
+user = input(f"{color[4]}Please enter username{end_code}")
+password = input(f"{color[4]}Please enter password{end_code}")
+```
+
+**Figure 8** The code shows the code of the first page that is printed on the terminal. An ascii text art[6] is showed in colors from ascii color codes[7]. 
+
+```.py
+def calculate_balance(s)->int:
+    with open (s) as file: #open file
+        MANA_database = file.readlines()
+    sum = 0
+    for element in MANA_database:
+        element_clean = element.strip()
+        value = int(element_clean.split(",")[1])
+        sum += value # add the element in each line together to calculate balance
+    return sum
+```
+
+**Figure 9** The figure shows the function for calculating the total balance of the wallet. The function open and reads the file then add the amount together using the for loop function. 
 
 ## Citation
 [1] Binance Academy. “What Is Decentraland (Mana)?” Binance Academy, Binance Academy, 18 Nov. 2021, https://academy.binance.com/en/articles/what-is-decentraland. 
@@ -154,3 +212,8 @@ Image of the login system
 [4] FutureLearn. “What Is Python Used for?: 10 Practical Python Uses.” FutureLearn, 30 Dec. 2021, https://www.futurelearn.com/info/blog/what-is-python-used-for. 
 
 [5]“What Is a .CSV File and What Does It Mean for My Ecommerce Business?” BigCommerce, https://www.bigcommerce.com/ecommerce-answers/what-csv-file-and-what-does-it-mean-my-ecommerce-business/. 
+
+[6] “ASCII Text Art Generator.” Symbols, https://fsymbols.com/generators/carty/. 
+
+[7] drPinzonISAK. “Unit1_g1/ASCI_COLORS.MD at Main · Drpinzonisak/UNIT1_G1.” GitHub, 14 Sept. 2022, https://github.com/drPinzonISAK/unit1_g1/blob/main/ASCI_colors.md. 
+
