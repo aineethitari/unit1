@@ -38,9 +38,9 @@ It will take approximately 3 weeks to make and will be evaluated according to th
 
 ## System Diagram
 
-![System Diagram for Ms Sato's Digital Ledger (1)](https://user-images.githubusercontent.com/112055062/194588794-dbd90252-5cb8-42a0-a603-5122bfe5f428.jpg)
+![System Diagram for Ms Sato's Digital Ledger (2)](https://user-images.githubusercontent.com/112055062/194686052-dc1acd63-eaf2-4c57-b23a-2607df41a78a.jpg)
 
-**Figure 2** This is the system diagram with starts from the input which is the keyboard to the output which is the terminal in Pycharm. 
+**Figure 2** This is the system diagram with starts from the input which is the keyboard to the output which is the terminal in Pycharm. The computer that is used to program this wallet is MacBook Pro 13-inch 2020(The specs are listed in the diagram) with macOS Monterey Version 12.4. The code is coded in Pycharm 20222.2.1. The data are recorded in comma separated value files. The first file, MANA_database.csv, stores the transactions. The second file, User_Note.csv, stores all the user's additional notes. The third file, users.csv, stores the usernames and passwords that are eligible to open the wallet. Python3.10 is used to code the wallet which 3 python files were used. Project1_Wallet is the python file for the main program. my_library is the file that stores functions from the validate integer input, the calculate balance and the validate date. simple_login is the file that includes the function to the login system. 
 
 ## Flow Diagrams
 
