@@ -71,7 +71,8 @@ Login System
 |Test option 3: record withdrawal and show balance| unit test, functional| 1. Enter option 3 2.Enter amount of money to withdraw 3.Enter the date 4.Show baance|When asked to enter amount of money, if enter an integer, the program then asks for date. If enter date, then show a message saying that the transaction has been recorded and shows the total balance.|
 |Test option 4: Convert MANA balance to USD| Unit test, functional| 1.Enter option 4| The program will show the balance and the amount in USD|
 |Test option 5: option for users to record their notes | Unit test, functional| 1. Enter option 5 2.Enter date 3.Enter note 4.enter 'yes' to see past notes| If enter wrong date, the program asks to enter date again. If enter correct date, the program continues to the next section. After enter note, the program asks if user would like to see past notes. If answer no, the program returns to menu. If enter yes, the program shows  all the notes and the dates entered.|
-|Test option 6: search for translation| 1.Enter option 6 2.Enter the date in the correct format | If the date is the date that the user have put in the notes before, the note will show. If not the program will return back to the menu.|
+|Test option 6: search for translation| Unit test, functional|1.Enter option 6 2.Enter the date in the correct format | If the date is the date that the user have put in the notes before, the note will show. If not the program will return back to the menu.|
+|Edit the aesthetics of the interface| integration, non-functional| 
 
 
 
