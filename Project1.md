@@ -73,10 +73,11 @@ Login System
 |Test option 5: option for users to record their notes | Unit test, functional| 1. Enter option 5 2.Enter date 3.Enter note 4.enter 'yes' to see past notes| If enter wrong date, the program asks to enter date again. If enter correct date, the program continues to the next section. After enter note, the program asks if user would like to see past notes. If answer no, the program returns to menu. If enter yes, the program shows  all the notes and the dates entered.|
 |Test option 6: search for translation| Unit test, functional|1.Enter option 6 2.Enter the date in the correct format | If the date is the date that the user have put in the notes before, the note will show. If not the program will return back to the menu.|
 |Edit the aesthetics of the interface| integration, non-functional| 1.Run every section of the program 2.Edit the colors and spacings| The printed parts looks understandable and beautiful|
-|Test by users| Integration, Blackbox, Functional, Non-functional| 1.Users use the program as if they were the client 2.Test with no prior knowledge of how the program works| If the users understood what to input in each section, the program will return an output. The output should be what the users are looking for. |
-|End to End Test| System Testing| 1.Check that 
+|Test by users| Integration, Blackbox, Functional| 1.Users use the program as if they were the client 2.Test with no prior knowledge of how the program works| If the users understood what to input in each section, the program will return an output. The output should be what the users are looking for. |
+|Feedback from users| Non-functional, usability| 1.Input all the information required or each section| Users are able to use if it is a friendly and not an over complicated program.
+|End to End Test| System Testing| 1.Try all the functions from start to the end| The program works smoothly with no problems|
 
-
+**Table 1** The test plan shows how the program has been tested. The types of tests that are implemented are Unit Testing, Integration, and System Testing. The input in the table is the steps to follow in testing the functions and the output is what the program should return in the test. The test also include white box testing which is done by the developer who knows the code behind the program and black box testing done by other people who do not know the code. 
 
 ## Record of Tasks
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
@@ -110,6 +111,9 @@ Login System
 | 26      |Write the description of the flowchart in figure 2 | Guide the client to understand how the flowchart works | 10 min      | Oct 07                 | B         |
 | 27      | Create a flowchart for option 6: enter date and search for transaction  | Show the users how the program works in a clearer way | 20 min      | Oct 07                 | B         |
 | 28      | Create a flowchart for option 2: user record transaction and show total balance |To let the users know how the program was created | 30 min      | Oct 07                 | B         |
+|29|Complete test plan table| To show the client that the function works and has been tested multiple times| 2 hr | Oct 08| B
+
+**Table 2** This table shows the record of tasks from the begining of creating this wallet until the end when the wallet is completed. The table consists of the task number, planned action, planned outcome, the time taken to do the task, the date, and the criterion of the task(A,B,C).
 
 # Criteria C: Development
 
