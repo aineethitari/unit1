@@ -420,7 +420,7 @@ def validate_date(prompt:str)->str: #user will have to enter date in the correct
     return date
 ```
 
-**Figure 11** This is the code for my_library,py
+**Figure 11** This is the code for my_library.py
 
 ## Citation
 [1] Binance Academy. “What Is Decentraland (Mana)?” Binance Academy, Binance Academy, 18 Nov. 2021, https://academy.binance.com/en/articles/what-is-decentraland. 
