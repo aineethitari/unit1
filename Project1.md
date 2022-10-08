@@ -40,6 +40,7 @@ It will take approximately 3 weeks to make and will be evaluated according to th
 
 ![System Diagram for Ms Sato's Digital Ledger (1)](https://user-images.githubusercontent.com/112055062/194588794-dbd90252-5cb8-42a0-a603-5122bfe5f428.jpg)
 
+**Figure 2** This is the system diagram with starts from the input which is the keyboard to the output which is the terminal in Pycharm. 
 
 ## Flow Diagrams
 
@@ -47,15 +48,15 @@ Login System
 
 ![simple login flowchart](https://user-images.githubusercontent.com/112055062/194010929-a551d6ab-b774-4920-b2d2-2d46d6ce22be.jpg)
 
-**Figure 2** The flow diagram above shows the diagram of the login system. The login system is a function called simple_login which asks for inputs of the username and the password. Then the input of the username and the password is being compared to the list of usernames and passwords in a file called users.csv. The for loop is used to check every lines in users.csv. If the username entered matches the elements that records the username, and the password matches the password recorded in the list, the user entered the correct login information and can continue to the next section.
+**Figure 3** The flow diagram above shows the diagram of the login system. The login system is a function called simple_login which asks for inputs of the username and the password. Then the input of the username and the password is being compared to the list of usernames and passwords in a file called users.csv. The for loop is used to check every lines in users.csv. If the username entered matches the elements that records the username, and the password matches the password recorded in the list, the user entered the correct login information and can continue to the next section.
 
 ![calculate balance diagram (1)](https://user-images.githubusercontent.com/112055062/194599275-b6c5400f-e86d-45d5-beb9-44aa8fc907b3.jpg)
 
-**Figure 3** The flow diagram above shows the operation of option 6 from the menu which allows the user to enter a date and the program will search for the date in a csv file called MANA_database.csv which records all the transactions made and the date. The program will read the file then look for the date that matches with the element on the list in the file. Then it prints out the list of transactions that was made on that day.  
+**Figure 4** The flow diagram above shows the operation of option 6 from the menu which allows the user to enter a date and the program will search for the date in a csv file called MANA_database.csv which records all the transactions made and the date. The program will read the file then look for the date that matches with the element on the list in the file. Then it prints out the list of transactions that was made on that day.  
 
 ![Option 2](https://user-images.githubusercontent.com/112055062/194602180-870beda6-db90-4dc9-b5e5-12a0f01f932d.jpg)
 
-**Figure 4*** The flow diagram above shows the process in recording the deposit of the MANA coin. The program starts with asking for two inputs which are the amount that the user want to deposit and the date of the transaction. Then the file MANA_database.csv is used to record the new information that the user had entered. The program then return a message confirming the user that they have entered the information successfully. Lastly, the program asks the user whether they want to know the total balance of the MANA coin in the wallet. 
+**Figure 5*** The flow diagram above shows the process in recording the deposit of the MANA coin. The program starts with asking for two inputs which are the amount that the user want to deposit and the date of the transaction. Then the file MANA_database.csv is used to record the new information that the user had entered. The program then return a message confirming the user that they have entered the information successfully. Lastly, the program asks the user whether they want to know the total balance of the MANA coin in the wallet. 
 
 ## Test Plan
 
