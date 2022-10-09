@@ -13,12 +13,10 @@ def powersTen(x:str)->str:
 
     x_list = x.split()
     num = x_list[0]
-    print(x_list)
-    print(num)
     num = int(num)
 
 
-    out = (f"""
+    out = f"""
     {num * (10**12)}          Tera
     {num * (10**9)}           Giga
     {num * (10**6)}           Mega
@@ -28,7 +26,7 @@ def powersTen(x:str)->str:
     {num * (10**-6)}          micro
     {num * (10**-9)}          nano
     {num * (10**-12)}         pico
-    """)
+    """
 
     return out
 
@@ -41,5 +39,9 @@ print(test1)
 Image of the result
 
 <img width="621" alt="quiz 010 result" src="https://user-images.githubusercontent.com/112055062/194738638-a764057a-b4fd-45af-be80-ab5185b5abf4.png">
+
+Flowchart
+
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/112055062/194738991-d4184793-d23f-49a9-bf0f-8848409fa56b.jpg)
 
 
