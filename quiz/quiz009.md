@@ -43,3 +43,6 @@ Image of the result:
 
 <img width="1097" alt="quiz 009 result" src="https://user-images.githubusercontent.com/112055062/194736265-0781341c-5264-439c-8c97-a70a89e57431.png">
 
+Image of the flowchart:
+
+![quiz009 flowchart](https://user-images.githubusercontent.com/112055062/194737475-554c67ba-3056-458b-9a27-c3e11578ab41.jpg)
